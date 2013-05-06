@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset='utf-8' />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+  <title>Trabalho de grafos | Lista Rotas</title>
+
+<!-- <script type="text/javascript" src="http://wancharle.github.com/Searchlight/js/searchlight.js"></script>-->
+<script src="http://192.168.1.2/~wancharle/site/js/searchlight.js"></script>
+
+<style type="text/css">
+#mapa {width:100%;height:100%;min-height:760px}
+#container-mapa{float:left;width:700px;margin:10px;border:1px solid black;background:black;}
+body { margin:5px; padding:0px;height:100%;}
+.pontoida { width:8px!important;background:blue;height:8px!important;
+-moz-border-radius:8px;
+-webkit-border-radius:8px;
+}
+.pontoparada{ width:12px!important;background:red;height:8px!important;
+-moz-border-radius:12px;
+-webkit-border-radius:12px;
+}
+#controle{ float:left;width:320px; border:0px solid red;margin:0 auto;text-align:Left;}
+#controle p {margin-right:5px}
+#controle a{ text-decoration:none;margin-left:10px} 
+#titulo-mapa{ text-align:center; color:white}
+h1 {text-align:center;}
+</style>
+</head>
+<body>
+
+     <h1>Trabalho de Teoria dos Grafos - 2012/2</h1>  
+         <p style="text-align:center"><strong>Grupo :</strong> Helder Machado, Jean Maicon, Wancharle Quirino</p>
+     <hr> 
+
+<div style="width:1050px;margin:10px auto;">
+<div id="controle">
+    <h3>Linhas de Ônibus </h3>
+    <p>Escolha uma linha de ônibus para exibila no mapa. </p>
+    <p>(clique nos vertices do caminho para ver o numero do ponto e sua ordem no caminho)
+    <p><select id='linha' name='linha'><option value=''>escolha uma linha</select></p>
+    <hr>
+    <h3>Rotas</h3>
+    <p>Escolha um ponto inicial, um ponto final e clique em 'calcular rota' para gerar a lista de rotas disponiveis. </p>
+    <p><select id='ponto_inicio' name='p1'><option value=''>escolha o ponto inicial</option></select></p>
+    <p><select id='ponto_destino' name='p2'><option value=''>escolha o ponto final </option></select></p>
+    <p><input type='button' value='Calcular rotas' onclick='calcula_rota()'></p>
+    <p>A seguir clique nos links das rotas para exibilas.</p>
+    <hr>
+    <div id='rotas'>
+    </div>
+</div>
+<div id="container-mapa">
+<p id='titulo-mapa'>Visualizando linha 071</p>
+<div id="mapa"> </div>
+</div>
+</div>
+<script type="text/javascript" >
+var IconeOnibusAzul = new L.icon({ iconUrl:getSLpath()+"../images/pin_3.png",iconSize:     [45, 58], iconAnchor:   [23, 48], popupAnchor: [0, -40] })
+var IconeParada= L.divIcon({className: 'pontoparada', iconAnchor:[4,4]});
+function map_clear(){
+    var map = SL("mapa")
+    map.dados.clear()
+    map.map.removeLayer(polyLinha)
+    map.map.removeLayer(polyRetorno)
+    if (pi) {map.map.removeLayer(pi); pi = null}
+    if (pd) {map.map.removeLayer(pd); pd= null}
+    if (poly1){map.map.removeLayer(poly1); poly1 = null}
+    if (poly2){map.map.removeLayer(poly2); poly2 = null}
+    if (layerPontosDeParada){ SL('mapa').map.removeLayer(layerPontosDeParada);layerPontosDeParada= null}
+    map.control.update() 
+    }
+
+var vendo_linha = true
+function carrega_linha(data){
+   vendo_linha = true
+   var map = SL("mapa")
+   map_clear()
+   map.carregaDados(data)
+   $('#titulo-mapa').text('Linha '+$('#linha').val())
+    }
+function visualizar_linha(){
+    getJSON("dados/linhas_ordenada/"+$("#linha").val()+".json",carrega_linha); 
+    pontos_inseridos = 0
+}   
+
+var myIda = "";
+var myVolta = "";
+var pontos_inseridos = 0
+var pi = null;
+var pd = null;
+function busca_linha(linha,func){     
+   getJSON('dados/linhas_ordenada/'+linha+".json",function (data){
+       func(data,linha);
+       })  
+}
+var linhas_carregadas = 0;
+var ld1 = null;
+var ld2 = null
+function busca_linhas(linha1,linha2,index,func){     
+  linhas_carregadas = 0;
+  ld1 = null;
+  ld2 = null  
+    getJSON('dados/linhas_ordenada/'+linha1+".json",function (data){
+        ld1 = data
+        linhas_carregadas +=1;
+        if (linhas_carregadas >1)
+             func(ld1,ld2,index);
+       })  
+
+    getJSON('dados/linhas_ordenada/'+linha2+".json",function (data){
+        ld2 = data
+        linhas_carregadas +=1;
+        if (linhas_carregadas >1)
+             func(ld1,ld2,index);
+       })  
+}
+
+var pontos_disponiveis = [
+    ['6043','Maria Ortiz' ],
+    ['5059', 'Shopping Vitoria'],
+    ['5029', 'Shopping Bullevard'],
+    ['6166', 'UFES'],
+    ['4033', 'UFES - campus Maruipe'],
+    ['2137', 'Rodoviária de Vitoria'],
+    ['6163', 'Aeroporto']
+]
+var meus_pontos = null
+
+var linhas = [ '010','031','051','071' , '102', '112', '121', '122', '151',  '161', '163', '171', '211','212', '214', '241', '290', '302', '303'  ];
+var linhas_problemas = ['031', '290', '303']
+var rotas = null;
+var poly1 = null;
+var poly2 = null;
+var poly3 = null;
+var layerPontosDeParada = null;
+function mostra_rota_direta(data,linha){
+    map_clear()
+    mostra_ponto_inicio()
+    mostra_ponto_destino()
+    var linha_completa = []
+    var trajeto = []
+    var p_inicio = rotas['ponto_inicial'];
+    var p_destino = rotas['ponto_destino'];
+    var estado = 0;
+    $.each(data,function(){
+        var latlng = [parseFloat(this['latitude']),parseFloat(this['longitude'])] 
+        linha_completa.push(latlng)
+        if ((estado == 0) &&( (p_inicio == this.ponto+"")|| (p_destino == this.ponto+""))){
+            estado =1;
+            trajeto.push(latlng)        
+        }else if (estado == 1) {
+            if ( (p_inicio == this.ponto+"") || (p_destino == this.ponto+"")){
+                     estado =2;
+            }
+            trajeto.push(latlng)        
+        }
+            
+    })
+
+    poly1 = L.polyline(linha_completa, {color: 'blue',opacity:0.5})
+    poly1.addTo(SL('mapa').map);
+    poly2 = L.polyline(trajeto, {color: 'yellow',opacity:1})
+    poly2.addTo(SL('mapa').map);
+
+    $('#titulo-mapa').html("Rota direta <span style='color:yellow'>"+linha+"</span>")
+    SL('mapa').map.fitBounds(poly2.getBounds())
+}
+function mostra_rota_indireta(ld1,ld2,index){
+    map_clear()
+    mostra_ponto_inicio()
+    mostra_ponto_destino()
+    var linha_completa = []
+    var linha2_completa = []
+    var trajeto = []
+    var p_inicio = rotas['ponto_inicial'];
+    var p_destino = rotas['ponto_destino'];
+    var p_de_parada = rotas['linhas_indiretas'][index]['pontos_de_parada']
+
+    var estado = 0;
+    var ponto_deceu = null
+    if (layerPontosDeParada) SL('mapa').map.removeLayer(layerPontosDeParada);
+    layerPontosDeParada= new L.FeatureGroup()
+
+    layerPontosDeParada.addTo(SL('mapa').map)
+    var ordem = 0;
+    $.each(ld1,function(){
+        var latlng = [parseFloat(this['latitude']),parseFloat(this['longitude'])] 
+        linha_completa.push(latlng)
+        if (p_de_parada.indexOf(this.ponto+"") >=0){
+            m = new L.Marker(latlng)
+            m.setIcon(IconeParada)
+            ordem+=1
+            m.bindPopup("Ponto: "+this.ponto+"<br>"+ordem+"ª opção de parada")
+            layerPontosDeParada.addLayer(m)
+            if (ordem == 1)m.openPopup()
+            }
+
+                 
+    })
+    $.each(ld2,function(){
+        var latlng = [parseFloat(this['latitude']),parseFloat(this['longitude'])] 
+        linha2_completa.push(latlng)
+    })
+
+    poly1 = L.polyline(linha_completa, {color: 'blue',opacity:0.5})
+    poly1.addTo(SL('mapa').map);
+
+    poly2 = L.polyline(linha2_completa, {color: 'green',opacity:0.5})
+    poly2.addTo(SL('mapa').map);
+    
+    var l1 =  rotas['linhas_indiretas'][index]['linha1']
+    var l2 =  rotas['linhas_indiretas'][index]['linha2']
+    $('#titulo-mapa').html("Rota indireta <span style='background:blue'>"+l1+"</span> --> <span style='background:green'>"+l2+"</span> <br>(<span style='background:red'>"+p_de_parada.length+"</span> opções de parada)")
+
+
+    SL('mapa').map.fitBounds(poly1.getBounds())
+}
+function carrega_rota(data){
+    rotas = data
+    var r = $('#rotas')
+    r.empty()
+    texto = "<h4>Rotas para  "+data['ponto_inicial']+" --> "+data['ponto_destino']+"</h4><p>Rotas Diretas</p><p>"
+    $.each(data['linhas_diretas'],function (){
+       texto+="<a href='javascript:busca_linha(\""+this+"\",mostra_rota_direta)'>"+this+"</a>, " 
+        })
+    texto+="</p><p>Rotas Indiretas</p><p>"
+
+    $.each(data['linhas_indiretas'],function (index){
+       texto+="<a href='javascript:busca_linhas(\""+this['linha1']+"\",\""+this['linha2']+"\","+index+",mostra_rota_indireta)'>"+this['linha1']+"-"+this['linha2']+"</a>, " 
+        })
+   texto+="</p>" 
+    r.append(texto)
+ }
+
+function mostra_ponto_inicio(){
+    if (vendo_linha){
+        vendo_linha = false;
+        map_clear()
+        }
+    p = meus_pontos[$('#ponto_inicio').val()]
+    latlng = [p[5],p[4]]
+    if (pi){
+        pi.setLatLng(latlng)
+       }
+    else{
+ pi = new L.Marker(latlng)
+        pi.addTo(SL('mapa').map)
+    
+        }
+
+ pi.bindPopup("Ponto inicial <br>("+$('#ponto_inicio').val()+")")
+ }
+
+function mostra_ponto_destino(){
+     if (vendo_linha){
+        vendo_linha = false;
+        map_clear()
+        }
+    p = meus_pontos[$('#ponto_destino').val()]
+    latlng = [p[5],p[4]]
+    if (pd){
+        pd.setLatLng(latlng)
+       }
+    else{
+ pd = new L.Marker(latlng)
+        pd.addTo(SL('mapa').map)
+    
+        }   
+
+ pd.bindPopup("Ponto final <br>("+$('#ponto_destino').val()+")")
+ 
+ }
+ function calcula_rota(){
+     
+    var pr1 = $('#ponto_inicio').val()
+    var pr2 = $('#ponto_destino').val()
+    if (pr1 == pr2){
+        alert(" O ponto destino deve ser diferente do ponto inicial");
+    }else{
+        $('#rotas').empty();
+        getJSON("dados/rotas/"+pr1+"_"+pr2+".json",carrega_rota); 
+    }
+ }
+function carrega_pontos(data){
+    meus_pontos = data
+    }
+$(document).ready(function(){
+    //var linhas = [ 10,31,'31A',51,52,71, 72, '73N','73S', 74, 101, 102, 103, 104, 105, 110, 111, 112, 121, 122, 123, 124, 125, 130,  151, 160,  161, 162, 163, 164, 171, 172, 173, 175,  181, 182, 184, 201, 202, 203, 204,  210, 211, 212, 213, 214, 215, 241, 290, 302, 303, 310, 331, 332, 333, 370, 1302, 1331, '1331PC' ];
+    
+    
+
+
+    var options = $("#ponto_inicio");
+    $.each(pontos_disponiveis, function() {
+        options.append($("<option />").val(this[0]).text(this[0]+" - "+this[1]));
+    });
+
+    options.val('6043')
+
+    options.change(mostra_ponto_inicio);
+    options = $("#ponto_destino");
+    $.each(pontos_disponiveis, function() {
+        options.append($("<option />").val(this[0]).text(this[0]+" - "+this[1]));
+    });
+    options.val('5059')
+    options.change(mostra_ponto_destino);
+
+    options = $("#linha");
+    $.each(linhas, function() {
+        if (linhas_problemas.indexOf(""+this)>=0){
+        options.append($("<option />").val(""+this).text(this+ " (horario errado)"));
+        }else{
+        options.append($("<option />").val(""+this).text(""+this));
+        }
+    });
+    $('#linha').val('071')
+    $("#linha").change(visualizar_linha) 
+    
+
+    getJSON("dados/rotas/6043_5059.json",carrega_rota); 
+    getJSON("dados/pontos/lista_de_pontos.json",carrega_pontos); 
+    myIda = L.divIcon({className: 'pontoida', iconAnchor:[4,4]});
+    servidor_mapas = "http://{s}.tile.cloudmade.com/bbcf9165c23646efbb1828828278c8bc/997/256/{z}/{x}/{y}.png";
+    mps = new Searchlight("dados/linhas_ordenada/071.json",convert_item,"mapa",null,false,false,servidor_mapas)
+});
+
+function convert_item(item){
+        item_convertido = {}
+        item_convertido.longitude = ""+item.longitude
+        item_convertido.latitude = "" +item.latitude
+        item_convertido.texto = "Ponto: "+ item.ponto + " <br>Ordem: " + item.ordem
+            if (pontos_inseridos == 0){
+                item_convertido.texto = "INICIO (Ponto: "+item.ponto+")"
+                item_convertido.icon = sl_IconePadrao
+            }else{
+                item_convertido.icon = myIda
+            }
+            item_convertido.cat_id = 1
+            item_convertido.cat = 'IDA'
+        pontos_inseridos +=1
+
+        return item_convertido
+}
+
+var polyLinha= 0;
+var polyRetorno = 0
+var p1 = 0;
+var p2 = 0;
+function onSLcarregaDados(sl){
+    var v=sl.dados.getCatLatLng('IDA');
+   
+    polyLinha = L.polyline(v, {color: 'blue'})
+    polyLinha.addTo(sl.map);
+    p1 = sl.dados.categorias['IDA'][0];
+
+    p1.m.openPopup();
+
+    p2 = sl.dados.categorias['IDA'].slice(-1,sl.dados.categorias['IDA'].length)[0];
+    polyRetorno= L.polyline([p1.m.getLatLng(),p2.m.getLatLng()], {color: 'black'})
+    polyRetorno.addTo(sl.map);
+}
+</script>
+
+</body>
+</html>
