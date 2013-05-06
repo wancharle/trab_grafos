@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="310" identifier="5062">
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>46</oid>
+                <identificador>214</identificador>
+                <descricao>Bento Ferreira / Goiabeiras / Via Shopping</descricao>
+            </linha>
+            <viagem>
+                <oid>3060002</oid>
+                <horario>1367510100000</horario>
+            </viagem>
+            <horarioEstimado>1367510729978</horarioEstimado>
+            <horarioPacote>1367510100000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>46</oid>
+                <identificador>214</identificador>
+                <descricao>Bento Ferreira / Goiabeiras / Via Shopping</descricao>
+            </linha>
+            <viagem>
+                <oid>3060024</oid>
+                <horario>1367511600000</horario>
+            </viagem>
+            <horarioEstimado>1367512208760</horarioEstimado>
+            <horarioPacote>1367511600000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>46</oid>
+                <identificador>214</identificador>
+                <descricao>Bento Ferreira / Goiabeiras / Via Shopping</descricao>
+            </linha>
+            <viagem>
+                <oid>3060036</oid>
+                <horario>1367513700000</horario>
+            </viagem>
+            <horarioEstimado>1367514308760</horarioEstimado>
+            <horarioPacote>1367513700000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>46</oid>
+                <identificador>214</identificador>
+                <descricao>Bento Ferreira / Goiabeiras / Via Shopping</descricao>
+            </linha>
+            <viagem>
+                <oid>3060010</oid>
+                <horario>1367515200000</horario>
+            </viagem>
+            <horarioEstimado>1367515811919</horarioEstimado>
+            <horarioPacote>1367515200000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367509922852</horarioAtual>
+    <tempo>163</tempo>
+</previsao>
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="313" identifier="5078">
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>53</oid>
+                <identificador>213</identificador>
+                <descricao>Grande Vitória / Mata da Praia</descricao>
+            </linha>
+            <viagem>
+                <oid>3051540</oid>
+                <horario>1367171100000</horario>
+            </viagem>
+            <horarioEstimado>1367173153645</horarioEstimado>
+            <horarioPacote>1367171100000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>53</oid>
+                <identificador>213</identificador>
+                <descricao>Grande Vitória / Mata da Praia</descricao>
+            </linha>
+            <viagem>
+                <oid>3051555</oid>
+                <horario>1367173020000</horario>
+            </viagem>
+            <horarioEstimado>1367175033943</horarioEstimado>
+            <horarioPacote>1367173020000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>53</oid>
+                <identificador>213</identificador>
+                <descricao>Grande Vitória / Mata da Praia</descricao>
+            </linha>
+            <viagem>
+                <oid>3051550</oid>
+                <horario>1367174940000</horario>
+            </viagem>
+            <horarioEstimado>1367176953943</horarioEstimado>
+            <horarioPacote>1367174940000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367171242474</horarioAtual>
+    <tempo>43</tempo>
+</previsao>
+

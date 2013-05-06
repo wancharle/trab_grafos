@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="339" identifier="3025">
+        
+        <estimativa>
+            <veiculo>
+                <oid>478</oid>
+                <rotulo>U9032</rotulo>
+            </veiculo>
+            <linha>
+                <oid>17</oid>
+                <identificador>161</identificador>
+                <descricao>Sambão do Povo/ Atlantica Ville / Via Maruípe</descricao>
+            </linha>
+            <viagem>
+                <oid>3052071</oid>
+                <horario>1367154600000</horario>
+            </viagem>
+            <horarioEstimado>1367160695200</horarioEstimado>
+            <horarioPacote>1367158279405</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>478</oid>
+                <rotulo>U9032</rotulo>
+            </veiculo>
+            <linha>
+                <oid>17</oid>
+                <identificador>161</identificador>
+                <descricao>Sambão do Povo/ Atlantica Ville / Via Maruípe</descricao>
+            </linha>
+            <viagem>
+                <oid>3052075</oid>
+                <horario>1367164200000</horario>
+            </viagem>
+            <horarioEstimado>1367170333412</horarioEstimado>
+            <horarioPacote>1367169831608</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>437</oid>
+                <rotulo>U9015</rotulo>
+            </veiculo>
+            <linha>
+                <oid>17</oid>
+                <identificador>161</identificador>
+                <descricao>Sambão do Povo/ Atlantica Ville / Via Maruípe</descricao>
+            </linha>
+            <viagem>
+                <oid>3052076</oid>
+                <horario>1367167200000</horario>
+            </viagem>
+            <horarioEstimado>1367173997122</horarioEstimado>
+            <horarioPacote>1367169844901</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>17</oid>
+                <identificador>161</identificador>
+                <descricao>Sambão do Povo/ Atlantica Ville / Via Maruípe</descricao>
+            </linha>
+            <viagem>
+                <oid>3052077</oid>
+                <horario>1367169000000</horario>
+            </viagem>
+            <horarioEstimado>1367173977157</horarioEstimado>
+            <horarioPacote>1367169000000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>17</oid>
+                <identificador>161</identificador>
+                <descricao>Sambão do Povo/ Atlantica Ville / Via Maruípe</descricao>
+            </linha>
+            <viagem>
+                <oid>3052078</oid>
+                <horario>1367170500000</horario>
+            </viagem>
+            <horarioEstimado>1367175477157</horarioEstimado>
+            <horarioPacote>1367170500000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367169879312</horarioAtual>
+    <tempo>92</tempo>
+</previsao>
+

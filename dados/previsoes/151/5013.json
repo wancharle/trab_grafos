@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="683" identifier="5013">
+        
+    </ponto>
+    
+    <horarioAtual>1367511576649</horarioAtual>
+    <tempo>27</tempo>
+</previsao>
+

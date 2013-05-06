@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="531" identifier="6089">
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>34</oid>
+                <identificador>184</identificador>
+                <descricao>Jardim da Penha / Rodoviária</descricao>
+            </linha>
+            <viagem>
+                <oid>3052239</oid>
+                <horario>1367173800000</horario>
+            </viagem>
+            <horarioEstimado>1367173979250</horarioEstimado>
+            <horarioPacote>1367173800000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>34</oid>
+                <identificador>184</identificador>
+                <descricao>Jardim da Penha / Rodoviária</descricao>
+            </linha>
+            <viagem>
+                <oid>3052223</oid>
+                <horario>1367176500000</horario>
+            </viagem>
+            <horarioEstimado>1367176709276</horarioEstimado>
+            <horarioPacote>1367176500000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>34</oid>
+                <identificador>184</identificador>
+                <descricao>Jardim da Penha / Rodoviária</descricao>
+            </linha>
+            <viagem>
+                <oid>3052236</oid>
+                <horario>1367178300000</horario>
+            </viagem>
+            <horarioEstimado>1367178509276</horarioEstimado>
+            <horarioPacote>1367178300000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367173889814</horarioAtual>
+    <tempo>55</tempo>
+</previsao>
+

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="176" identifier="6013">
+        
+        <estimativa>
+            <veiculo>
+                <oid>486</oid>
+                <rotulo>T4197</rotulo>
+            </veiculo>
+            <linha>
+                <oid>74</oid>
+                <identificador>212</identificador>
+                <descricao>Aeroporto / Santo Antônio / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3051819</oid>
+                <horario>1367164500000</horario>
+            </viagem>
+            <horarioEstimado>1367168369414</horarioEstimado>
+            <horarioPacote>1367166150981</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>484</oid>
+                <rotulo>T4177</rotulo>
+            </veiculo>
+            <linha>
+                <oid>74</oid>
+                <identificador>212</identificador>
+                <descricao>Aeroporto / Santo Antônio / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3051771</oid>
+                <horario>1367166000000</horario>
+            </viagem>
+            <horarioEstimado>1367171104697</horarioEstimado>
+            <horarioPacote>1367169790921</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>485</oid>
+                <rotulo>T4187</rotulo>
+            </veiculo>
+            <linha>
+                <oid>74</oid>
+                <identificador>212</identificador>
+                <descricao>Aeroporto / Santo Antônio / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3051729</oid>
+                <horario>1367167500000</horario>
+            </viagem>
+            <horarioEstimado>1367172276089</horarioEstimado>
+            <horarioPacote>1367169704897</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>488</oid>
+                <rotulo>T4217</rotulo>
+            </veiculo>
+            <linha>
+                <oid>74</oid>
+                <identificador>212</identificador>
+                <descricao>Aeroporto / Santo Antônio / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3051820</oid>
+                <horario>1367168700000</horario>
+            </viagem>
+            <horarioEstimado>1367173444908</horarioEstimado>
+            <horarioPacote>1367169819670</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>74</oid>
+                <identificador>212</identificador>
+                <descricao>Aeroporto / Santo Antônio / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3051772</oid>
+                <horario>1367169900000</horario>
+            </viagem>
+            <horarioEstimado>1367174731922</horarioEstimado>
+            <horarioPacote>1367169900000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>74</oid>
+                <identificador>212</identificador>
+                <descricao>Aeroporto / Santo Antônio / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3051730</oid>
+                <horario>1367171400000</horario>
+            </viagem>
+            <horarioEstimado>1367176231922</horarioEstimado>
+            <horarioPacote>1367171400000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367169841636</horarioAtual>
+    <tempo>85</tempo>
+</previsao>
+

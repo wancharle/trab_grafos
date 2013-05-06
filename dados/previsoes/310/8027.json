@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="469" identifier="8027">
+        
+        <estimativa>
+            <veiculo>
+                <oid>229</oid>
+                <rotulo>T3867</rotulo>
+            </veiculo>
+            <linha>
+                <oid>49</oid>
+                <identificador>310</identificador>
+                <descricao>Jardim Camburi / Santo André</descricao>
+            </linha>
+            <viagem>
+                <oid>3052285</oid>
+                <horario>1367166900000</horario>
+            </viagem>
+            <horarioEstimado>1367171805262</horarioEstimado>
+            <horarioPacote>1367171596963</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>230</oid>
+                <rotulo>T3877</rotulo>
+            </veiculo>
+            <linha>
+                <oid>49</oid>
+                <identificador>310</identificador>
+                <descricao>Jardim Camburi / Santo André</descricao>
+            </linha>
+            <viagem>
+                <oid>3052286</oid>
+                <horario>1367170500000</horario>
+            </viagem>
+            <horarioEstimado>1367176321080</horarioEstimado>
+            <horarioPacote>1367171588225</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>49</oid>
+                <identificador>310</identificador>
+                <descricao>Jardim Camburi / Santo André</descricao>
+            </linha>
+            <viagem>
+                <oid>3052287</oid>
+                <horario>1367173500000</horario>
+            </viagem>
+            <horarioEstimado>1367178809289</horarioEstimado>
+            <horarioPacote>1367173500000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367171618482</horarioAtual>
+    <tempo>78</tempo>
+</previsao>
+

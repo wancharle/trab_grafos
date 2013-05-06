@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="304" identifier="5090">
+        
+        <estimativa>
+            <veiculo>
+                <oid>134</oid>
+                <rotulo>G6460</rotulo>
+            </veiculo>
+            <linha>
+                <oid>59</oid>
+                <identificador>201</identificador>
+                <descricao>Curva da Jurema / Bela Vista</descricao>
+            </linha>
+            <viagem>
+                <oid>3051633</oid>
+                <horario>1367167500000</horario>
+            </viagem>
+            <horarioEstimado>1367171023830</horarioEstimado>
+            <horarioPacote>1367170841392</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>126</oid>
+                <rotulo>G6340</rotulo>
+            </veiculo>
+            <linha>
+                <oid>59</oid>
+                <identificador>201</identificador>
+                <descricao>Curva da Jurema / Bela Vista</descricao>
+            </linha>
+            <viagem>
+                <oid>3051634</oid>
+                <horario>1367169600000</horario>
+            </viagem>
+            <horarioEstimado>1367173531595</horarioEstimado>
+            <horarioPacote>1367170861365</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>59</oid>
+                <identificador>201</identificador>
+                <descricao>Curva da Jurema / Bela Vista</descricao>
+            </linha>
+            <viagem>
+                <oid>3051636</oid>
+                <horario>1367171700000</horario>
+            </viagem>
+            <horarioEstimado>1367175253226</horarioEstimado>
+            <horarioPacote>1367171700000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>59</oid>
+                <identificador>201</identificador>
+                <descricao>Curva da Jurema / Bela Vista</descricao>
+            </linha>
+            <viagem>
+                <oid>3051637</oid>
+                <horario>1367173800000</horario>
+            </viagem>
+            <horarioEstimado>1367177456695</horarioEstimado>
+            <horarioPacote>1367173800000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367170910080</horarioAtual>
+    <tempo>23</tempo>
+</previsao>
+

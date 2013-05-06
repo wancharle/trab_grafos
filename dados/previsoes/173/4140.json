@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="84" identifier="4140">
+        
+        <estimativa>
+            <veiculo>
+                <oid>394</oid>
+                <rotulo>T667</rotulo>
+            </veiculo>
+            <linha>
+                <oid>31</oid>
+                <identificador>173</identificador>
+                <descricao>Tabuazeiro / Rodoviária - Maruípe</descricao>
+            </linha>
+            <viagem>
+                <oid>3052166</oid>
+                <horario>1367172300000</horario>
+            </viagem>
+            <horarioEstimado>1367174458100</horarioEstimado>
+            <horarioPacote>1367172781174</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>31</oid>
+                <identificador>173</identificador>
+                <descricao>Tabuazeiro / Rodoviária - Maruípe</descricao>
+            </linha>
+            <viagem>
+                <oid>3052152</oid>
+                <horario>1367174100000</horario>
+            </viagem>
+            <horarioEstimado>1367176055861</horarioEstimado>
+            <horarioPacote>1367174100000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>31</oid>
+                <identificador>173</identificador>
+                <descricao>Tabuazeiro / Rodoviária - Maruípe</descricao>
+            </linha>
+            <viagem>
+                <oid>3052169</oid>
+                <horario>1367175900000</horario>
+            </viagem>
+            <horarioEstimado>1367177966889</horarioEstimado>
+            <horarioPacote>1367175900000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>31</oid>
+                <identificador>173</identificador>
+                <descricao>Tabuazeiro / Rodoviária - Maruípe</descricao>
+            </linha>
+            <viagem>
+                <oid>3052145</oid>
+                <horario>1367177700000</horario>
+            </viagem>
+            <horarioEstimado>1367179766889</horarioEstimado>
+            <horarioPacote>1367177700000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367172837668</horarioAtual>
+    <tempo>18</tempo>
+</previsao>
+

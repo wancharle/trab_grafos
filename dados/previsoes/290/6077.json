@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="178" identifier="6077">
+        
+        <estimativa>
+            <veiculo>
+                <oid>598</oid>
+                <rotulo>U9514</rotulo>
+            </veiculo>
+            <linha>
+                <oid>55</oid>
+                <identificador>290</identificador>
+                <descricao>Sambão do Povo / Atlântica Ville / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052034</oid>
+                <horario>1367172000000</horario>
+            </viagem>
+            <horarioEstimado>1367175806741</horarioEstimado>
+            <horarioPacote>1367175689117</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>55</oid>
+                <identificador>290</identificador>
+                <descricao>Sambão do Povo / Atlântica Ville / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052035</oid>
+                <horario>1367176200000</horario>
+            </viagem>
+            <horarioEstimado>1367179489812</horarioEstimado>
+            <horarioPacote>1367176200000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>55</oid>
+                <identificador>290</identificador>
+                <descricao>Sambão do Povo / Atlântica Ville / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052041</oid>
+                <horario>1367178000000</horario>
+            </viagem>
+            <horarioEstimado>1367181289812</horarioEstimado>
+            <horarioPacote>1367178000000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>55</oid>
+                <identificador>290</identificador>
+                <descricao>Sambão do Povo / Atlântica Ville / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052027</oid>
+                <horario>1367179500000</horario>
+            </viagem>
+            <horarioEstimado>1367182483948</horarioEstimado>
+            <horarioPacote>1367179500000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>579</oid>
+                <rotulo>U9503</rotulo>
+            </veiculo>
+            <linha>
+                <oid>55</oid>
+                <identificador>290</identificador>
+                <descricao>Sambão do Povo / Atlântica Ville / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052040</oid>
+                <horario>1367173200000</horario>
+            </viagem>
+            <horarioEstimado>1367175672293</horarioEstimado>
+            <horarioPacote>1367175672293</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>584</oid>
+                <rotulo>U9508</rotulo>
+            </veiculo>
+            <linha>
+                <oid>55</oid>
+                <identificador>290</identificador>
+                <descricao>Sambão do Povo / Atlântica Ville / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052026</oid>
+                <horario>1367175000000</horario>
+            </viagem>
+            <horarioEstimado>1367175675942</horarioEstimado>
+            <horarioPacote>1367175675942</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367175709167</horarioAtual>
+    <tempo>84</tempo>
+</previsao>
+

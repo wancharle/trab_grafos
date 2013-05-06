@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="175" identifier="6012">
+        
+        <estimativa>
+            <veiculo>
+                <oid>496</oid>
+                <rotulo>T4287</rotulo>
+            </veiculo>
+            <linha>
+                <oid>14</oid>
+                <identificador>112</identificador>
+                <descricao>Maria Ortiz / Rodoviária via Av. Vitória</descricao>
+            </linha>
+            <viagem>
+                <oid>3052259</oid>
+                <horario>1367166600000</horario>
+            </viagem>
+            <horarioEstimado>1367170431806</horarioEstimado>
+            <horarioPacote>1367170066361</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>494</oid>
+                <rotulo>T4277</rotulo>
+            </veiculo>
+            <linha>
+                <oid>14</oid>
+                <identificador>112</identificador>
+                <descricao>Maria Ortiz / Rodoviária via Av. Vitória</descricao>
+            </linha>
+            <viagem>
+                <oid>3052260</oid>
+                <horario>1367168100000</horario>
+            </viagem>
+            <horarioEstimado>1367171534038</horarioEstimado>
+            <horarioPacote>1367170101949</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>493</oid>
+                <rotulo>T4267</rotulo>
+            </veiculo>
+            <linha>
+                <oid>14</oid>
+                <identificador>112</identificador>
+                <descricao>Maria Ortiz / Rodoviária via Av. Vitória</descricao>
+            </linha>
+            <viagem>
+                <oid>3052261</oid>
+                <horario>1367169600000</horario>
+            </viagem>
+            <horarioEstimado>1367173304029</horarioEstimado>
+            <horarioPacote>1367170130089</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>14</oid>
+                <identificador>112</identificador>
+                <descricao>Maria Ortiz / Rodoviária via Av. Vitória</descricao>
+            </linha>
+            <viagem>
+                <oid>3052262</oid>
+                <horario>1367171100000</horario>
+            </viagem>
+            <horarioEstimado>1367174580122</horarioEstimado>
+            <horarioPacote>1367171100000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>14</oid>
+                <identificador>112</identificador>
+                <descricao>Maria Ortiz / Rodoviária via Av. Vitória</descricao>
+            </linha>
+            <viagem>
+                <oid>3052263</oid>
+                <horario>1367172600000</horario>
+            </viagem>
+            <horarioEstimado>1367176321611</horarioEstimado>
+            <horarioPacote>1367172600000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367170139481</horarioAtual>
+    <tempo>86</tempo>
+</previsao>
+

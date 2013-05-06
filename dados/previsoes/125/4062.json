@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="802" identifier="4062">
+        
+        <estimativa>
+            <veiculo>
+                <oid>450</oid>
+                <rotulo>G6930</rotulo>
+            </veiculo>
+            <linha>
+                <oid>40</oid>
+                <identificador>125</identificador>
+                <descricao>Alto Tabuazeiro / Fonte Grande</descricao>
+            </linha>
+            <viagem>
+                <oid>3051950</oid>
+                <horario>1367172600000</horario>
+            </viagem>
+            <horarioEstimado>1367175156814</horarioEstimado>
+            <horarioPacote>1367174797641</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>40</oid>
+                <identificador>125</identificador>
+                <descricao>Alto Tabuazeiro / Fonte Grande</descricao>
+            </linha>
+            <viagem>
+                <oid>3051951</oid>
+                <horario>1367175000000</horario>
+            </viagem>
+            <horarioEstimado>1367178188493</horarioEstimado>
+            <horarioPacote>1367175000000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>40</oid>
+                <identificador>125</identificador>
+                <descricao>Alto Tabuazeiro / Fonte Grande</descricao>
+            </linha>
+            <viagem>
+                <oid>3051952</oid>
+                <horario>1367177400000</horario>
+            </viagem>
+            <horarioEstimado>1367180553671</horarioEstimado>
+            <horarioPacote>1367177400000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>40</oid>
+                <identificador>125</identificador>
+                <descricao>Alto Tabuazeiro / Fonte Grande</descricao>
+            </linha>
+            <viagem>
+                <oid>3051951</oid>
+                <horario>1367175000000</horario>
+            </viagem>
+            <horarioEstimado>1367175080775</horarioEstimado>
+            <horarioPacote>1367175000000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>40</oid>
+                <identificador>125</identificador>
+                <descricao>Alto Tabuazeiro / Fonte Grande</descricao>
+            </linha>
+            <viagem>
+                <oid>3051952</oid>
+                <horario>1367177400000</horario>
+            </viagem>
+            <horarioEstimado>1367177400000</horarioEstimado>
+            <horarioPacote>1367177400000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>40</oid>
+                <identificador>125</identificador>
+                <descricao>Alto Tabuazeiro / Fonte Grande</descricao>
+            </linha>
+            <viagem>
+                <oid>3051953</oid>
+                <horario>1367181900000</horario>
+            </viagem>
+            <horarioEstimado>1367181990240</horarioEstimado>
+            <horarioPacote>1367181900000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367174866682</horarioAtual>
+    <tempo>23</tempo>
+</previsao>
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="317" identifier="5063">
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>6</oid>
+                <identificador>031A</identificador>
+                <descricao>São Benedito / Mario Cyprestes / Morro do Pinto</descricao>
+            </linha>
+            <viagem>
+                <oid>3051592</oid>
+                <horario>1367171100000</horario>
+            </viagem>
+            <horarioEstimado>1367173923123</horarioEstimado>
+            <horarioPacote>1367171100000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>6</oid>
+                <identificador>031A</identificador>
+                <descricao>São Benedito / Mario Cyprestes / Morro do Pinto</descricao>
+            </linha>
+            <viagem>
+                <oid>3051593</oid>
+                <horario>1367174100000</horario>
+            </viagem>
+            <horarioEstimado>1367176845278</horarioEstimado>
+            <horarioPacote>1367174100000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>6</oid>
+                <identificador>031A</identificador>
+                <descricao>São Benedito / Mario Cyprestes / Morro do Pinto</descricao>
+            </linha>
+            <viagem>
+                <oid>3051594</oid>
+                <horario>1367177100000</horario>
+            </viagem>
+            <horarioEstimado>1367180830000</horarioEstimado>
+            <horarioPacote>1367177100000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367174655455</horarioAtual>
+    <tempo>81</tempo>
+</previsao>
+

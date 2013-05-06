@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="664" identifier="4080">
+        
+        <estimativa>
+            <veiculo>
+                <oid>127</oid>
+                <rotulo>G6350</rotulo>
+            </veiculo>
+            <linha>
+                <oid>57</oid>
+                <identificador>182</identificador>
+                <descricao>Bairro da Penha / Alagoano</descricao>
+            </linha>
+            <viagem>
+                <oid>3051925</oid>
+                <horario>1367172960000</horario>
+            </viagem>
+            <horarioEstimado>1367174764667</horarioEstimado>
+            <horarioPacote>1367173566119</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>57</oid>
+                <identificador>182</identificador>
+                <descricao>Bairro da Penha / Alagoano</descricao>
+            </linha>
+            <viagem>
+                <oid>3051926</oid>
+                <horario>1367174460000</horario>
+            </viagem>
+            <horarioEstimado>1367175946341</horarioEstimado>
+            <horarioPacote>1367174460000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>57</oid>
+                <identificador>182</identificador>
+                <descricao>Bairro da Penha / Alagoano</descricao>
+            </linha>
+            <viagem>
+                <oid>3051927</oid>
+                <horario>1367175960000</horario>
+            </viagem>
+            <horarioEstimado>1367177489292</horarioEstimado>
+            <horarioPacote>1367175960000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>57</oid>
+                <identificador>182</identificador>
+                <descricao>Bairro da Penha / Alagoano</descricao>
+            </linha>
+            <viagem>
+                <oid>3051928</oid>
+                <horario>1367177460000</horario>
+            </viagem>
+            <horarioEstimado>1367178989292</horarioEstimado>
+            <horarioPacote>1367177460000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>57</oid>
+                <identificador>182</identificador>
+                <descricao>Bairro da Penha / Alagoano</descricao>
+            </linha>
+            <viagem>
+                <oid>3051929</oid>
+                <horario>1367178960000</horario>
+            </viagem>
+            <horarioEstimado>1367180489292</horarioEstimado>
+            <horarioPacote>1367178960000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367173597401</horarioAtual>
+    <tempo>27</tempo>
+</previsao>
+

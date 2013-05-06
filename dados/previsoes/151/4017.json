@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="776" identifier="4017">
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>21</oid>
+                <identificador>151</identificador>
+                <descricao>Santa Marta / Rodoviária</descricao>
+            </linha>
+            <viagem>
+                <oid>3059232</oid>
+                <horario>1367511600000</horario>
+            </viagem>
+            <horarioEstimado>1367511681988</horarioEstimado>
+            <horarioPacote>1367511600000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>21</oid>
+                <identificador>151</identificador>
+                <descricao>Santa Marta / Rodoviária</descricao>
+            </linha>
+            <viagem>
+                <oid>3059222</oid>
+                <horario>1367513100000</horario>
+            </viagem>
+            <horarioEstimado>1367513181988</horarioEstimado>
+            <horarioPacote>1367513100000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>21</oid>
+                <identificador>151</identificador>
+                <descricao>Santa Marta / Rodoviária</descricao>
+            </linha>
+            <viagem>
+                <oid>3059248</oid>
+                <horario>1367514600000</horario>
+            </viagem>
+            <horarioEstimado>1367514690684</horarioEstimado>
+            <horarioPacote>1367514600000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>21</oid>
+                <identificador>151</identificador>
+                <descricao>Santa Marta / Rodoviária</descricao>
+            </linha>
+            <viagem>
+                <oid>3059249</oid>
+                <horario>1367515800000</horario>
+            </viagem>
+            <horarioEstimado>1367515890684</horarioEstimado>
+            <horarioPacote>1367515800000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>21</oid>
+                <identificador>151</identificador>
+                <descricao>Santa Marta / Rodoviária</descricao>
+            </linha>
+            <viagem>
+                <oid>3059233</oid>
+                <horario>1367517300000</horario>
+            </viagem>
+            <horarioEstimado>1367517390684</horarioEstimado>
+            <horarioPacote>1367517300000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>21</oid>
+                <identificador>151</identificador>
+                <descricao>Santa Marta / Rodoviária</descricao>
+            </linha>
+            <viagem>
+                <oid>3059223</oid>
+                <horario>1367518500000</horario>
+            </viagem>
+            <horarioEstimado>1367518589560</horarioEstimado>
+            <horarioPacote>1367518500000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367511575638</horarioAtual>
+    <tempo>38</tempo>
+</previsao>
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="478" identifier="8039">
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>73</oid>
+                <identificador>103</identificador>
+                <descricao>Jardim Camburi / Caratoira</descricao>
+            </linha>
+            <viagem>
+                <oid>3052114</oid>
+                <horario>1367175600000</horario>
+            </viagem>
+            <horarioEstimado>1367176424301</horarioEstimado>
+            <horarioPacote>1367175600000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>73</oid>
+                <identificador>103</identificador>
+                <descricao>Jardim Camburi / Caratoira</descricao>
+            </linha>
+            <viagem>
+                <oid>3052105</oid>
+                <horario>1367177700000</horario>
+            </viagem>
+            <horarioEstimado>1367178524301</horarioEstimado>
+            <horarioPacote>1367177700000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>73</oid>
+                <identificador>103</identificador>
+                <descricao>Jardim Camburi / Caratoira</descricao>
+            </linha>
+            <viagem>
+                <oid>3052115</oid>
+                <horario>1367179800000</horario>
+            </viagem>
+            <horarioEstimado>1367180758913</horarioEstimado>
+            <horarioPacote>1367179800000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367175109331</horarioAtual>
+    <tempo>99</tempo>
+</previsao>
+

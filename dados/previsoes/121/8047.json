@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="485" identifier="8047">
+        
+        <estimativa>
+            <veiculo>
+                <oid>431</oid>
+                <rotulo>U9014</rotulo>
+            </veiculo>
+            <linha>
+                <oid>65</oid>
+                <identificador>121</identificador>
+                <descricao>Sambão do Povo / Atlantica Ville</descricao>
+            </linha>
+            <viagem>
+                <oid>3052209</oid>
+                <horario>1367166000000</horario>
+            </viagem>
+            <horarioEstimado>1367169768518</horarioEstimado>
+            <horarioPacote>1367169384564</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>427</oid>
+                <rotulo>U9008</rotulo>
+            </veiculo>
+            <linha>
+                <oid>65</oid>
+                <identificador>121</identificador>
+                <descricao>Sambão do Povo / Atlantica Ville</descricao>
+            </linha>
+            <viagem>
+                <oid>3052193</oid>
+                <horario>1367167800000</horario>
+            </viagem>
+            <horarioEstimado>1367171782265</horarioEstimado>
+            <horarioPacote>1367169352894</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>65</oid>
+                <identificador>121</identificador>
+                <descricao>Sambão do Povo / Atlantica Ville</descricao>
+            </linha>
+            <viagem>
+                <oid>3052194</oid>
+                <horario>1367170200000</horario>
+            </viagem>
+            <horarioEstimado>1367174208987</horarioEstimado>
+            <horarioPacote>1367170200000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367169413439</horarioAtual>
+    <tempo>66</tempo>
+</previsao>
+

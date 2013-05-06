@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="320" identifier="5058">
+        
+    </ponto>
+    
+    <horarioAtual>1367173212823</horarioAtual>
+    <tempo>172</tempo>
+</previsao>
+

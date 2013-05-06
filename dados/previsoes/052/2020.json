@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="11" identifier="2020">
+        
+    </ponto>
+    
+    <horarioAtual>1367173781654</horarioAtual>
+    <tempo>33</tempo>
+</previsao>
+

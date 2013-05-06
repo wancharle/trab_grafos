@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="38" identifier="1016">
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>45</oid>
+                <identificador>181</identificador>
+                <descricao>Grande Vitória/ Tabuazeiro / bairro universitário</descricao>
+            </linha>
+            <viagem>
+                <oid>3051899</oid>
+                <horario>1367175300000</horario>
+            </viagem>
+            <horarioEstimado>1367176689579</horarioEstimado>
+            <horarioPacote>1367175300000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367173622187</horarioAtual>
+    <tempo>212</tempo>
+</previsao>
+

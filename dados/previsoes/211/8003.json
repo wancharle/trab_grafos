@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="490" identifier="8003">
+        
+        <estimativa>
+            <veiculo>
+                <oid>368</oid>
+                <rotulo>G6640</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059134</oid>
+                <horario>1367495820000</horario>
+            </viagem>
+            <horarioEstimado>1367501716113</horarioEstimado>
+            <horarioPacote>1367497046899</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>369</oid>
+                <rotulo>G6650</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059135</oid>
+                <horario>1367496720000</horario>
+            </viagem>
+            <horarioEstimado>1367502406086</horarioEstimado>
+            <horarioPacote>1367501356054</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>118</oid>
+                <rotulo>G6260</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059138</oid>
+                <horario>1367499360000</horario>
+            </viagem>
+            <horarioEstimado>1367505537267</horarioEstimado>
+            <horarioPacote>1367504690322</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>560</oid>
+                <rotulo>G7270</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059139</oid>
+                <horario>1367500260000</horario>
+            </viagem>
+            <horarioEstimado>1367505556193</horarioEstimado>
+            <horarioPacote>1367504709248</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>375</oid>
+                <rotulo>G6710</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059142</oid>
+                <horario>1367502780000</horario>
+            </viagem>
+            <horarioEstimado>1367509070132</horarioEstimado>
+            <horarioPacote>1367508095506</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>353</oid>
+                <rotulo>G6520</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059143</oid>
+                <horario>1367503500000</horario>
+            </viagem>
+            <horarioEstimado>1367509589245</horarioEstimado>
+            <horarioPacote>1367508614619</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>355</oid>
+                <rotulo>G6540</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059146</oid>
+                <horario>1367505240000</horario>
+            </viagem>
+            <horarioEstimado>1367511240335</horarioEstimado>
+            <horarioPacote>1367510617702</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>372</oid>
+                <rotulo>G6680</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059147</oid>
+                <horario>1367505780000</horario>
+            </viagem>
+            <horarioEstimado>1367511024342</horarioEstimado>
+            <horarioPacote>1367510135918</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>361</oid>
+                <rotulo>G6590</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059148</oid>
+                <horario>1367506380000</horario>
+            </viagem>
+            <horarioEstimado>1367511905832</horarioEstimado>
+            <horarioPacote>1367510575483</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>565</oid>
+                <rotulo>G7280</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059149</oid>
+                <horario>1367506920000</horario>
+            </viagem>
+            <horarioEstimado>1367512610158</horarioEstimado>
+            <horarioPacote>1367510591789</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>362</oid>
+                <rotulo>G6600</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059150</oid>
+                <horario>1367507520000</horario>
+            </viagem>
+            <horarioEstimado>1367513156602</horarioEstimado>
+            <horarioPacote>1367510615028</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>363</oid>
+                <rotulo>G6610</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059151</oid>
+                <horario>1367508120000</horario>
+            </viagem>
+            <horarioEstimado>1367513651494</horarioEstimado>
+            <horarioPacote>1367510611271</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>367</oid>
+                <rotulo>G6630</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059152</oid>
+                <horario>1367508720000</horario>
+            </viagem>
+            <horarioEstimado>1367514342560</horarioEstimado>
+            <horarioPacote>1367510461721</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>368</oid>
+                <rotulo>G6640</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059153</oid>
+                <horario>1367509320000</horario>
+            </viagem>
+            <horarioEstimado>1367514885239</horarioEstimado>
+            <horarioPacote>1367510627270</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>369</oid>
+                <rotulo>G6650</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059154</oid>
+                <horario>1367510040000</horario>
+            </viagem>
+            <horarioEstimado>1367516016523</horarioEstimado>
+            <horarioPacote>1367510597978</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059155</oid>
+                <horario>1367510820000</horario>
+            </viagem>
+            <horarioEstimado>1367516521973</horarioEstimado>
+            <horarioPacote>1367510820000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059156</oid>
+                <horario>1367511600000</horario>
+            </viagem>
+            <horarioEstimado>1367517301973</horarioEstimado>
+            <horarioPacote>1367511600000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>368</oid>
+                <rotulo>G6640</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059134</oid>
+                <horario>1367495820000</horario>
+            </viagem>
+            <horarioEstimado>1367501268392</horarioEstimado>
+            <horarioPacote>1367497046899</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>369</oid>
+                <rotulo>G6650</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059135</oid>
+                <horario>1367496720000</horario>
+            </viagem>
+            <horarioEstimado>1367502017995</horarioEstimado>
+            <horarioPacote>1367501356054</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>118</oid>
+                <rotulo>G6260</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059138</oid>
+                <horario>1367499360000</horario>
+            </viagem>
+            <horarioEstimado>1367505011251</horarioEstimado>
+            <horarioPacote>1367504690322</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>560</oid>
+                <rotulo>G7270</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059139</oid>
+                <horario>1367500260000</horario>
+            </viagem>
+            <horarioEstimado>1367505030177</horarioEstimado>
+            <horarioPacote>1367504709248</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>375</oid>
+                <rotulo>G6710</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059142</oid>
+                <horario>1367502780000</horario>
+            </viagem>
+            <horarioEstimado>1367508588288</horarioEstimado>
+            <horarioPacote>1367508095506</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>353</oid>
+                <rotulo>G6520</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059143</oid>
+                <horario>1367503500000</horario>
+            </viagem>
+            <horarioEstimado>1367509107401</horarioEstimado>
+            <horarioPacote>1367508614619</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>372</oid>
+                <rotulo>G6680</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059147</oid>
+                <horario>1367505780000</horario>
+            </viagem>
+            <horarioEstimado>1367510542498</horarioEstimado>
+            <horarioPacote>1367510135918</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>361</oid>
+                <rotulo>G6590</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059148</oid>
+                <horario>1367506380000</horario>
+            </viagem>
+            <horarioEstimado>1367511283199</horarioEstimado>
+            <horarioPacote>1367510575483</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>565</oid>
+                <rotulo>G7280</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059149</oid>
+                <horario>1367506920000</horario>
+            </viagem>
+            <horarioEstimado>1367511987525</horarioEstimado>
+            <horarioPacote>1367510591789</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>362</oid>
+                <rotulo>G6600</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059150</oid>
+                <horario>1367507520000</horario>
+            </viagem>
+            <horarioEstimado>1367512533969</horarioEstimado>
+            <horarioPacote>1367510615028</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>363</oid>
+                <rotulo>G6610</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059151</oid>
+                <horario>1367508120000</horario>
+            </viagem>
+            <horarioEstimado>1367513028861</horarioEstimado>
+            <horarioPacote>1367510611271</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>367</oid>
+                <rotulo>G6630</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059152</oid>
+                <horario>1367508720000</horario>
+            </viagem>
+            <horarioEstimado>1367513719927</horarioEstimado>
+            <horarioPacote>1367510461721</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>368</oid>
+                <rotulo>G6640</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059153</oid>
+                <horario>1367509320000</horario>
+            </viagem>
+            <horarioEstimado>1367514262606</horarioEstimado>
+            <horarioPacote>1367510627270</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>369</oid>
+                <rotulo>G6650</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059154</oid>
+                <horario>1367510040000</horario>
+            </viagem>
+            <horarioEstimado>1367515393890</horarioEstimado>
+            <horarioPacote>1367510597978</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059155</oid>
+                <horario>1367510820000</horario>
+            </viagem>
+            <horarioEstimado>1367515899340</horarioEstimado>
+            <horarioPacote>1367510820000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059156</oid>
+                <horario>1367511600000</horario>
+            </viagem>
+            <horarioEstimado>1367516679340</horarioEstimado>
+            <horarioPacote>1367511600000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>56</oid>
+                <identificador>211</identificador>
+                <descricao>Santo André / Jardim Camburi</descricao>
+            </linha>
+            <viagem>
+                <oid>3059157</oid>
+                <horario>1367512380000</horario>
+            </viagem>
+            <horarioEstimado>1367517459340</horarioEstimado>
+            <horarioPacote>1367512380000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367510651851</horarioAtual>
+    <tempo>890</tempo>
+</previsao>
+

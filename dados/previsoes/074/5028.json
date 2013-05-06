@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="689" identifier="5028">
+        
+        <estimativa>
+            <veiculo>
+                <oid>250</oid>
+                <rotulo>T337</rotulo>
+            </veiculo>
+            <linha>
+                <oid>4</oid>
+                <identificador>074</identificador>
+                <descricao>São Cristóvão / B. da Penha - Circular</descricao>
+            </linha>
+            <viagem>
+                <oid>3051418</oid>
+                <horario>1367169000000</horario>
+            </viagem>
+            <horarioEstimado>1367171373872</horarioEstimado>
+            <horarioPacote>1367170942329</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>4</oid>
+                <identificador>074</identificador>
+                <descricao>São Cristóvão / B. da Penha - Circular</descricao>
+            </linha>
+            <viagem>
+                <oid>3051419</oid>
+                <horario>1367171100000</horario>
+            </viagem>
+            <horarioEstimado>1367173172216</horarioEstimado>
+            <horarioPacote>1367171100000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>4</oid>
+                <identificador>074</identificador>
+                <descricao>São Cristóvão / B. da Penha - Circular</descricao>
+            </linha>
+            <viagem>
+                <oid>3051420</oid>
+                <horario>1367173200000</horario>
+            </viagem>
+            <horarioEstimado>1367175488133</horarioEstimado>
+            <horarioPacote>1367173200000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>4</oid>
+                <identificador>074</identificador>
+                <descricao>São Cristóvão / B. da Penha - Circular</descricao>
+            </linha>
+            <viagem>
+                <oid>3051421</oid>
+                <horario>1367175300000</horario>
+            </viagem>
+            <horarioEstimado>1367177588133</horarioEstimado>
+            <horarioPacote>1367175300000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367171002148</horarioAtual>
+    <tempo>117</tempo>
+</previsao>
+

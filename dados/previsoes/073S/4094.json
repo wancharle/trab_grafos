@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="614" identifier="4094">
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>30</oid>
+                <identificador>073S</identificador>
+                <descricao>Maruípe / Jucutuquara / Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052133</oid>
+                <horario>1367174400000</horario>
+            </viagem>
+            <horarioEstimado>1367176796264</horarioEstimado>
+            <horarioPacote>1367174400000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>30</oid>
+                <identificador>073S</identificador>
+                <descricao>Maruípe / Jucutuquara / Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052134</oid>
+                <horario>1367178000000</horario>
+            </viagem>
+            <horarioEstimado>1367180248270</horarioEstimado>
+            <horarioPacote>1367178000000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367174298693</horarioAtual>
+    <tempo>12</tempo>
+</previsao>
+

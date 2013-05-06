@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="325" identifier="2131">
+        
+        <estimativa>
+            <veiculo>
+                <oid>460</oid>
+                <rotulo>G6900</rotulo>
+            </veiculo>
+            <linha>
+                <oid>53</oid>
+                <identificador>213</identificador>
+                <descricao>Grande Vitória / Mata da Praia</descricao>
+            </linha>
+            <viagem>
+                <oid>3051540</oid>
+                <horario>1367171100000</horario>
+            </viagem>
+            <horarioEstimado>1367171496041</horarioEstimado>
+            <horarioPacote>1367171351115</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>53</oid>
+                <identificador>213</identificador>
+                <descricao>Grande Vitória / Mata da Praia</descricao>
+            </linha>
+            <viagem>
+                <oid>3051555</oid>
+                <horario>1367173020000</horario>
+            </viagem>
+            <horarioEstimado>1367173137390</horarioEstimado>
+            <horarioPacote>1367173020000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>53</oid>
+                <identificador>213</identificador>
+                <descricao>Grande Vitória / Mata da Praia</descricao>
+            </linha>
+            <viagem>
+                <oid>3051550</oid>
+                <horario>1367174940000</horario>
+            </viagem>
+            <horarioEstimado>1367175057390</horarioEstimado>
+            <horarioPacote>1367174940000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>53</oid>
+                <identificador>213</identificador>
+                <descricao>Grande Vitória / Mata da Praia</descricao>
+            </linha>
+            <viagem>
+                <oid>3051541</oid>
+                <horario>1367176860000</horario>
+            </viagem>
+            <horarioEstimado>1367176998762</horarioEstimado>
+            <horarioPacote>1367176860000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367171357723</horarioAtual>
+    <tempo>15</tempo>
+</previsao>
+

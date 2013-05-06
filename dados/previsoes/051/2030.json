@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="111" identifier="2030">
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>5</oid>
+                <identificador>051</identificador>
+                <descricao>Santo Antônio / Consolação / Itararé</descricao>
+            </linha>
+            <viagem>
+                <oid>3051384</oid>
+                <horario>1367176380000</horario>
+            </viagem>
+            <horarioEstimado>1367176550100</horarioEstimado>
+            <horarioPacote>1367176380000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>5</oid>
+                <identificador>051</identificador>
+                <descricao>Santo Antônio / Consolação / Itararé</descricao>
+            </linha>
+            <viagem>
+                <oid>3051366</oid>
+                <horario>1367178000000</horario>
+            </viagem>
+            <horarioEstimado>1367178170100</horarioEstimado>
+            <horarioPacote>1367178000000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>5</oid>
+                <identificador>051</identificador>
+                <descricao>Santo Antônio / Consolação / Itararé</descricao>
+            </linha>
+            <viagem>
+                <oid>3051367</oid>
+                <horario>1367179800000</horario>
+            </viagem>
+            <horarioEstimado>1367179979054</horarioEstimado>
+            <horarioPacote>1367179800000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>5</oid>
+                <identificador>051</identificador>
+                <descricao>Santo Antônio / Consolação / Itararé</descricao>
+            </linha>
+            <viagem>
+                <oid>3051360</oid>
+                <horario>1367182200000</horario>
+            </viagem>
+            <horarioEstimado>1367182379054</horarioEstimado>
+            <horarioPacote>1367182200000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367175507285</horarioAtual>
+    <tempo>109</tempo>
+</previsao>
+

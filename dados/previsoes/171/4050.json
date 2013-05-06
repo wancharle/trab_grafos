@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="791" identifier="4050">
+        
+        <estimativa>
+            <veiculo>
+                <oid>257</oid>
+                <rotulo>T407</rotulo>
+            </veiculo>
+            <linha>
+                <oid>27</oid>
+                <identificador>171</identificador>
+                <descricao>Joana Darc / Rodoviária - Maruípe</descricao>
+            </linha>
+            <viagem>
+                <oid>3051610</oid>
+                <horario>1367171100000</horario>
+            </viagem>
+            <horarioEstimado>1367173582180</horarioEstimado>
+            <horarioPacote>1367173012488</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>27</oid>
+                <identificador>171</identificador>
+                <descricao>Joana Darc / Rodoviária - Maruípe</descricao>
+            </linha>
+            <viagem>
+                <oid>3051611</oid>
+                <horario>1367173500000</horario>
+            </viagem>
+            <horarioEstimado>1367175863011</horarioEstimado>
+            <horarioPacote>1367173500000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>27</oid>
+                <identificador>171</identificador>
+                <descricao>Joana Darc / Rodoviária - Maruípe</descricao>
+            </linha>
+            <viagem>
+                <oid>3051612</oid>
+                <horario>1367175900000</horario>
+            </viagem>
+            <horarioEstimado>1367178503928</horarioEstimado>
+            <horarioPacote>1367175900000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367173027974</horarioAtual>
+    <tempo>104</tempo>
+</previsao>
+

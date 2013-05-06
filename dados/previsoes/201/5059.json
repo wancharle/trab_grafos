@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="306" identifier="5059">
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>59</oid>
+                <identificador>201</identificador>
+                <descricao>Curva da Jurema / Bela Vista</descricao>
+            </linha>
+            <viagem>
+                <oid>3051636</oid>
+                <horario>1367171700000</horario>
+            </viagem>
+            <horarioEstimado>1367171967242</horarioEstimado>
+            <horarioPacote>1367171700000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>59</oid>
+                <identificador>201</identificador>
+                <descricao>Curva da Jurema / Bela Vista</descricao>
+            </linha>
+            <viagem>
+                <oid>3051637</oid>
+                <horario>1367173800000</horario>
+            </viagem>
+            <horarioEstimado>1367174130857</horarioEstimado>
+            <horarioPacote>1367173800000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>59</oid>
+                <identificador>201</identificador>
+                <descricao>Curva da Jurema / Bela Vista</descricao>
+            </linha>
+            <viagem>
+                <oid>3051638</oid>
+                <horario>1367175900000</horario>
+            </viagem>
+            <horarioEstimado>1367176068254</horarioEstimado>
+            <horarioPacote>1367175900000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367170916245</horarioAtual>
+    <tempo>146</tempo>
+</previsao>
+

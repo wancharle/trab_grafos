@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="33" identifier="1003">
+        
+        <estimativa>
+            <veiculo>
+                <oid>223</oid>
+                <rotulo>T3807</rotulo>
+            </veiculo>
+            <linha>
+                <oid>32</oid>
+                <identificador>175</identificador>
+                <descricao>Resistência / Rodoviária</descricao>
+            </linha>
+            <viagem>
+                <oid>3051712</oid>
+                <horario>1367171700000</horario>
+            </viagem>
+            <horarioEstimado>1367173221185</horarioEstimado>
+            <horarioPacote>1367172713368</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>32</oid>
+                <identificador>175</identificador>
+                <descricao>Resistência / Rodoviária</descricao>
+            </linha>
+            <viagem>
+                <oid>3051713</oid>
+                <horario>1367174100000</horario>
+            </viagem>
+            <horarioEstimado>1367175283187</horarioEstimado>
+            <horarioPacote>1367174100000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>32</oid>
+                <identificador>175</identificador>
+                <descricao>Resistência / Rodoviária</descricao>
+            </linha>
+            <viagem>
+                <oid>3051714</oid>
+                <horario>1367175600000</horario>
+            </viagem>
+            <horarioEstimado>1367176820853</horarioEstimado>
+            <horarioPacote>1367175600000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>32</oid>
+                <identificador>175</identificador>
+                <descricao>Resistência / Rodoviária</descricao>
+            </linha>
+            <viagem>
+                <oid>3051715</oid>
+                <horario>1367177100000</horario>
+            </viagem>
+            <horarioEstimado>1367178320853</horarioEstimado>
+            <horarioPacote>1367177100000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367172717866</horarioAtual>
+    <tempo>186</tempo>
+</previsao>
+

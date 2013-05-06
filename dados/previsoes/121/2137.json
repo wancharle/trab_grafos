@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="416" identifier="2137">
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>65</oid>
+                <identificador>121</identificador>
+                <descricao>Sambão do Povo / Atlantica Ville</descricao>
+            </linha>
+            <viagem>
+                <oid>3052194</oid>
+                <horario>1367170200000</horario>
+            </viagem>
+            <horarioEstimado>1367170525162</horarioEstimado>
+            <horarioPacote>1367170200000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>65</oid>
+                <identificador>121</identificador>
+                <descricao>Sambão do Povo / Atlantica Ville</descricao>
+            </linha>
+            <viagem>
+                <oid>3052195</oid>
+                <horario>1367172600000</horario>
+            </viagem>
+            <horarioEstimado>1367172956222</horarioEstimado>
+            <horarioPacote>1367172600000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>65</oid>
+                <identificador>121</identificador>
+                <descricao>Sambão do Povo / Atlantica Ville</descricao>
+            </linha>
+            <viagem>
+                <oid>3052196</oid>
+                <horario>1367175600000</horario>
+            </viagem>
+            <horarioEstimado>1367175945119</horarioEstimado>
+            <horarioPacote>1367175600000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>435</oid>
+                <rotulo>U9025</rotulo>
+            </veiculo>
+            <linha>
+                <oid>65</oid>
+                <identificador>121</identificador>
+                <descricao>Sambão do Povo / Atlantica Ville</descricao>
+            </linha>
+            <viagem>
+                <oid>3052192</oid>
+                <horario>1367164200000</horario>
+            </viagem>
+            <horarioEstimado>1367171076427</horarioEstimado>
+            <horarioPacote>1367169492097</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>431</oid>
+                <rotulo>U9014</rotulo>
+            </veiculo>
+            <linha>
+                <oid>65</oid>
+                <identificador>121</identificador>
+                <descricao>Sambão do Povo / Atlantica Ville</descricao>
+            </linha>
+            <viagem>
+                <oid>3052209</oid>
+                <horario>1367166000000</horario>
+            </viagem>
+            <horarioEstimado>1367171659850</horarioEstimado>
+            <horarioPacote>1367169530040</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>427</oid>
+                <rotulo>U9008</rotulo>
+            </veiculo>
+            <linha>
+                <oid>65</oid>
+                <identificador>121</identificador>
+                <descricao>Sambão do Povo / Atlantica Ville</descricao>
+            </linha>
+            <viagem>
+                <oid>3052193</oid>
+                <horario>1367167800000</horario>
+            </viagem>
+            <horarioEstimado>1367173719855</horarioEstimado>
+            <horarioPacote>1367169352894</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>65</oid>
+                <identificador>121</identificador>
+                <descricao>Sambão do Povo / Atlantica Ville</descricao>
+            </linha>
+            <viagem>
+                <oid>3052194</oid>
+                <horario>1367170200000</horario>
+            </viagem>
+            <horarioEstimado>1367176146577</horarioEstimado>
+            <horarioPacote>1367170200000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367169555247</horarioAtual>
+    <tempo>305</tempo>
+</previsao>
+

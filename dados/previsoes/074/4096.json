@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="770" identifier="4096">
+        
+        <estimativa>
+            <veiculo>
+                <oid>250</oid>
+                <rotulo>T337</rotulo>
+            </veiculo>
+            <linha>
+                <oid>4</oid>
+                <identificador>074</identificador>
+                <descricao>São Cristóvão / B. da Penha - Circular</descricao>
+            </linha>
+            <viagem>
+                <oid>3051418</oid>
+                <horario>1367169000000</horario>
+            </viagem>
+            <horarioEstimado>1367172064773</horarioEstimado>
+            <horarioPacote>1367170942329</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>4</oid>
+                <identificador>074</identificador>
+                <descricao>São Cristóvão / B. da Penha - Circular</descricao>
+            </linha>
+            <viagem>
+                <oid>3051419</oid>
+                <horario>1367171100000</horario>
+            </viagem>
+            <horarioEstimado>1367173863117</horarioEstimado>
+            <horarioPacote>1367171100000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>4</oid>
+                <identificador>074</identificador>
+                <descricao>São Cristóvão / B. da Penha - Circular</descricao>
+            </linha>
+            <viagem>
+                <oid>3051420</oid>
+                <horario>1367173200000</horario>
+            </viagem>
+            <horarioEstimado>1367176177918</horarioEstimado>
+            <horarioPacote>1367173200000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367171020867</horarioAtual>
+    <tempo>45</tempo>
+</previsao>
+

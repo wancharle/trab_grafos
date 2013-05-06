@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="646" identifier="3060">
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>28</oid>
+                <identificador>073N</identificador>
+                <descricao>Maruípe / Bairro da Penha / Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052054</oid>
+                <horario>1367172600000</horario>
+            </viagem>
+            <horarioEstimado>1367174523686</horarioEstimado>
+            <horarioPacote>1367172600000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>28</oid>
+                <identificador>073N</identificador>
+                <descricao>Maruípe / Bairro da Penha / Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052055</oid>
+                <horario>1367176200000</horario>
+            </viagem>
+            <horarioEstimado>1367178093303</horarioEstimado>
+            <horarioPacote>1367176200000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367172180194</horarioAtual>
+    <tempo>151</tempo>
+</previsao>
+

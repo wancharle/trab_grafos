@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="93" identifier="7030">
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>35</oid>
+                <identificador>370</identificador>
+                <descricao>Resistência / Bento Ferreira</descricao>
+            </linha>
+            <viagem>
+                <oid>3051795</oid>
+                <horario>1367177340000</horario>
+            </viagem>
+            <horarioEstimado>1367177829389</horarioEstimado>
+            <horarioPacote>1367177340000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>35</oid>
+                <identificador>370</identificador>
+                <descricao>Resistência / Bento Ferreira</descricao>
+            </linha>
+            <viagem>
+                <oid>3051786</oid>
+                <horario>1367181840000</horario>
+            </viagem>
+            <horarioEstimado>1367182390950</horarioEstimado>
+            <horarioPacote>1367181840000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367175527896</horarioAtual>
+    <tempo>78</tempo>
+</previsao>
+

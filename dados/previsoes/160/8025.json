@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="510" identifier="8025">
+        
+    </ponto>
+    
+    <horarioAtual>1367175228821</horarioAtual>
+    <tempo>41</tempo>
+</previsao>
+

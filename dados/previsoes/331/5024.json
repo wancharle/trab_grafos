@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="714" identifier="5024">
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>44</oid>
+                <identificador>331</identificador>
+                <descricao>Ilha das Caieiras / Jucutuquara</descricao>
+            </linha>
+            <viagem>
+                <oid>3051500</oid>
+                <horario>1367155560000</horario>
+            </viagem>
+            <horarioEstimado>1367158150921</horarioEstimado>
+            <horarioPacote>1367155560000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>569</oid>
+                <rotulo>G7200</rotulo>
+            </veiculo>
+            <linha>
+                <oid>44</oid>
+                <identificador>331</identificador>
+                <descricao>Ilha das Caieiras / Jucutuquara</descricao>
+            </linha>
+            <viagem>
+                <oid>3051352</oid>
+                <horario>1367169600000</horario>
+            </viagem>
+            <horarioEstimado>1367172340428</horarioEstimado>
+            <horarioPacote>1367171739017</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>559</oid>
+                <rotulo>G7210</rotulo>
+            </veiculo>
+            <linha>
+                <oid>44</oid>
+                <identificador>331</identificador>
+                <descricao>Ilha das Caieiras / Jucutuquara</descricao>
+            </linha>
+            <viagem>
+                <oid>3051353</oid>
+                <horario>1367170920000</horario>
+            </viagem>
+            <horarioEstimado>1367173690357</horarioEstimado>
+            <horarioPacote>1367171730864</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>44</oid>
+                <identificador>331</identificador>
+                <descricao>Ilha das Caieiras / Jucutuquara</descricao>
+            </linha>
+            <viagem>
+                <oid>3051354</oid>
+                <horario>1367172240000</horario>
+            </viagem>
+            <horarioEstimado>1367175012364</horarioEstimado>
+            <horarioPacote>1367172240000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>44</oid>
+                <identificador>331</identificador>
+                <descricao>Ilha das Caieiras / Jucutuquara</descricao>
+            </linha>
+            <viagem>
+                <oid>3051355</oid>
+                <horario>1367173560000</horario>
+            </viagem>
+            <horarioEstimado>1367176332364</horarioEstimado>
+            <horarioPacote>1367173560000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>44</oid>
+                <identificador>331</identificador>
+                <descricao>Ilha das Caieiras / Jucutuquara</descricao>
+            </linha>
+            <viagem>
+                <oid>3051356</oid>
+                <horario>1367174880000</horario>
+            </viagem>
+            <horarioEstimado>1367177652364</horarioEstimado>
+            <horarioPacote>1367174880000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>44</oid>
+                <identificador>331</identificador>
+                <descricao>Ilha das Caieiras / Jucutuquara</descricao>
+            </linha>
+            <viagem>
+                <oid>3051400</oid>
+                <horario>1367176200000</horario>
+            </viagem>
+            <horarioEstimado>1367178940757</horarioEstimado>
+            <horarioPacote>1367176200000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367171774162</horarioAtual>
+    <tempo>137</tempo>
+</previsao>
+

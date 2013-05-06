@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="388" identifier="3005">
+        
+        <estimativa>
+            <veiculo>
+                <oid>447</oid>
+                <rotulo>U9017</rotulo>
+            </veiculo>
+            <linha>
+                <oid>73</oid>
+                <identificador>103</identificador>
+                <descricao>Jardim Camburi / Caratoira</descricao>
+            </linha>
+            <viagem>
+                <oid>3052104</oid>
+                <horario>1367173500000</horario>
+            </viagem>
+            <horarioEstimado>1367175824740</horarioEstimado>
+            <horarioPacote>1367175027751</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>73</oid>
+                <identificador>103</identificador>
+                <descricao>Jardim Camburi / Caratoira</descricao>
+            </linha>
+            <viagem>
+                <oid>3052114</oid>
+                <horario>1367175600000</horario>
+            </viagem>
+            <horarioEstimado>1367177873545</horarioEstimado>
+            <horarioPacote>1367175600000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>73</oid>
+                <identificador>103</identificador>
+                <descricao>Jardim Camburi / Caratoira</descricao>
+            </linha>
+            <viagem>
+                <oid>3052105</oid>
+                <horario>1367177700000</horario>
+            </viagem>
+            <horarioEstimado>1367179973545</horarioEstimado>
+            <horarioPacote>1367177700000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>73</oid>
+                <identificador>103</identificador>
+                <descricao>Jardim Camburi / Caratoira</descricao>
+            </linha>
+            <viagem>
+                <oid>3052115</oid>
+                <horario>1367179800000</horario>
+            </viagem>
+            <horarioEstimado>1367182116388</horarioEstimado>
+            <horarioPacote>1367179800000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367175079177</horarioAtual>
+    <tempo>69</tempo>
+</previsao>
+

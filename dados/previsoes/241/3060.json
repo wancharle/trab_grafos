@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="646" identifier="3060">
+        
+        <estimativa>
+            <veiculo>
+                <oid>594</oid>
+                <rotulo>U9056</rotulo>
+            </veiculo>
+            <linha>
+                <oid>25</oid>
+                <identificador>241</identificador>
+                <descricao>Jardim Camburi / Parque Moscoso / Leitão da Silva</descricao>
+            </linha>
+            <viagem>
+                <oid>3051889</oid>
+                <horario>1367169600000</horario>
+            </viagem>
+            <horarioEstimado>1367171295343</horarioEstimado>
+            <horarioPacote>1367170242236</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>25</oid>
+                <identificador>241</identificador>
+                <descricao>Jardim Camburi / Parque Moscoso / Leitão da Silva</descricao>
+            </linha>
+            <viagem>
+                <oid>3051762</oid>
+                <horario>1367171100000</horario>
+            </viagem>
+            <horarioEstimado>1367172699847</horarioEstimado>
+            <horarioPacote>1367171100000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>25</oid>
+                <identificador>241</identificador>
+                <descricao>Jardim Camburi / Parque Moscoso / Leitão da Silva</descricao>
+            </linha>
+            <viagem>
+                <oid>3051832</oid>
+                <horario>1367173200000</horario>
+            </viagem>
+            <horarioEstimado>1367174799347</horarioEstimado>
+            <horarioPacote>1367173200000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>25</oid>
+                <identificador>241</identificador>
+                <descricao>Jardim Camburi / Parque Moscoso / Leitão da Silva</descricao>
+            </linha>
+            <viagem>
+                <oid>3051890</oid>
+                <horario>1367175300000</horario>
+            </viagem>
+            <horarioEstimado>1367176899347</horarioEstimado>
+            <horarioPacote>1367175300000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367170262433</horarioAtual>
+    <tempo>159</tempo>
+</previsao>
+

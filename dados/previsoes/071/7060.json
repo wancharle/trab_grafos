@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="228" identifier="7060">
+        
+        <estimativa>
+            <veiculo>
+                <oid>534</oid>
+                <rotulo>G6980</rotulo>
+            </veiculo>
+            <linha>
+                <oid>62</oid>
+                <identificador>071</identificador>
+                <descricao>São Pedro / Maruípe / Centro - Circular</descricao>
+            </linha>
+            <viagem>
+                <oid>3051476</oid>
+                <horario>1367168700000</horario>
+            </viagem>
+            <horarioEstimado>1367171865910</horarioEstimado>
+            <horarioPacote>1367171533941</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>533</oid>
+                <rotulo>G6970</rotulo>
+            </veiculo>
+            <linha>
+                <oid>62</oid>
+                <identificador>071</identificador>
+                <descricao>São Pedro / Maruípe / Centro - Circular</descricao>
+            </linha>
+            <viagem>
+                <oid>3051461</oid>
+                <horario>1367170800000</horario>
+            </viagem>
+            <horarioEstimado>1367174532828</horarioEstimado>
+            <horarioPacote>1367171527970</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>62</oid>
+                <identificador>071</identificador>
+                <descricao>São Pedro / Maruípe / Centro - Circular</descricao>
+            </linha>
+            <viagem>
+                <oid>3051512</oid>
+                <horario>1367172900000</horario>
+            </viagem>
+            <horarioEstimado>1367176060603</horarioEstimado>
+            <horarioPacote>1367172900000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>62</oid>
+                <identificador>071</identificador>
+                <descricao>São Pedro / Maruípe / Centro - Circular</descricao>
+            </linha>
+            <viagem>
+                <oid>3051477</oid>
+                <horario>1367175000000</horario>
+            </viagem>
+            <horarioEstimado>1367178160603</horarioEstimado>
+            <horarioPacote>1367175000000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367171547889</horarioAtual>
+    <tempo>33</tempo>
+</previsao>
+

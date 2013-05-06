@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="354" identifier="6019">
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>24</oid>
+                <identificador>163</identificador>
+                <descricao>Aeroporto / Maria Ortiz / Parque Moscoso</descricao>
+            </linha>
+            <viagem>
+                <oid>3059457</oid>
+                <horario>1367517300000</horario>
+            </viagem>
+            <horarioEstimado>1367518403408</horarioEstimado>
+            <horarioPacote>1367517300000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>24</oid>
+                <identificador>163</identificador>
+                <descricao>Aeroporto / Maria Ortiz / Parque Moscoso</descricao>
+            </linha>
+            <viagem>
+                <oid>3059458</oid>
+                <horario>1367519100000</horario>
+            </viagem>
+            <horarioEstimado>1367520218299</horarioEstimado>
+            <horarioPacote>1367519100000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>24</oid>
+                <identificador>163</identificador>
+                <descricao>Aeroporto / Maria Ortiz / Parque Moscoso</descricao>
+            </linha>
+            <viagem>
+                <oid>3059459</oid>
+                <horario>1367521200000</horario>
+            </viagem>
+            <horarioEstimado>1367522289964</horarioEstimado>
+            <horarioPacote>1367521200000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>24</oid>
+                <identificador>163</identificador>
+                <descricao>Aeroporto / Maria Ortiz / Parque Moscoso</descricao>
+            </linha>
+            <viagem>
+                <oid>3059460</oid>
+                <horario>1367522700000</horario>
+            </viagem>
+            <horarioEstimado>1367523789964</horarioEstimado>
+            <horarioPacote>1367522700000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367517207706</horarioAtual>
+    <tempo>127</tempo>
+</previsao>
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="824" identifier="2082">
+        
+        <estimativa>
+            <veiculo>
+                <oid>454</oid>
+                <rotulo>G6920</rotulo>
+            </veiculo>
+            <linha>
+                <oid>45</oid>
+                <identificador>181</identificador>
+                <descricao>Grande Vitória/ Tabuazeiro / bairro universitário</descricao>
+            </linha>
+            <viagem>
+                <oid>3051898</oid>
+                <horario>1367169900000</horario>
+            </viagem>
+            <horarioEstimado>1367174236101</horarioEstimado>
+            <horarioPacote>1367173586410</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>45</oid>
+                <identificador>181</identificador>
+                <descricao>Grande Vitória/ Tabuazeiro / bairro universitário</descricao>
+            </linha>
+            <viagem>
+                <oid>3051899</oid>
+                <horario>1367175300000</horario>
+            </viagem>
+            <horarioEstimado>1367180038414</horarioEstimado>
+            <horarioPacote>1367175300000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367173620880</horarioAtual>
+    <tempo>18</tempo>
+</previsao>
+

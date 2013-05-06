@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="756" identifier="5042">
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>29</oid>
+                <identificador>172</identificador>
+                <descricao>Consolação / Itararé / Rodoviária</descricao>
+            </linha>
+            <viagem>
+                <oid>3051999</oid>
+                <horario>1367175600000</horario>
+            </viagem>
+            <horarioEstimado>1367175600000</horarioEstimado>
+            <horarioPacote>1367175600000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>29</oid>
+                <identificador>172</identificador>
+                <descricao>Consolação / Itararé / Rodoviária</descricao>
+            </linha>
+            <viagem>
+                <oid>3052009</oid>
+                <horario>1367179200000</horario>
+            </viagem>
+            <horarioEstimado>1367179200000</horarioEstimado>
+            <horarioPacote>1367179200000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367172971021</horarioAtual>
+    <tempo>22</tempo>
+</previsao>
+

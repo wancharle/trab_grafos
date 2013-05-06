@@ -1,0 +1,3 @@
+{ "ponto_inicial":"5029", "ponto_destino":"6043",
+"linhas_diretas":["122"],
+"linhas_indiretas":[{ "linha1":"121", "linha2":"214", "pontos_de_parada": ["6024", "6022", "6020", "6017", "6016"] }, { "linha1":"121", "linha2":"303", "pontos_de_parada": ["6004", "6005", "6009", "6013"] }, { "linha1":"124", "linha2":"214", "pontos_de_parada": ["6035", "6034", "6031", "6030"] }, { "linha1":"125", "linha2":"303", "pontos_de_parada": ["4025", "4024"] }] }

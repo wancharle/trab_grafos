@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="330" identifier="1002">
+        
+        <estimativa>
+            <veiculo>
+                <oid>491</oid>
+                <rotulo>T4247</rotulo>
+            </veiculo>
+            <linha>
+                <oid>16</oid>
+                <identificador>122</identificador>
+                <descricao>Aeroporto / Rodoviária / Av. Vitória</descricao>
+            </linha>
+            <viagem>
+                <oid>3058456</oid>
+                <horario>1367508600000</horario>
+            </viagem>
+            <horarioEstimado>1367511220642</horarioEstimado>
+            <horarioPacote>1367511158963</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>506</oid>
+                <rotulo>T4377</rotulo>
+            </veiculo>
+            <linha>
+                <oid>16</oid>
+                <identificador>122</identificador>
+                <descricao>Aeroporto / Rodoviária / Av. Vitória</descricao>
+            </linha>
+            <viagem>
+                <oid>3058478</oid>
+                <horario>1367510100000</horario>
+            </viagem>
+            <horarioEstimado>1367512697744</horarioEstimado>
+            <horarioPacote>1367511182117</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>16</oid>
+                <identificador>122</identificador>
+                <descricao>Aeroporto / Rodoviária / Av. Vitória</descricao>
+            </linha>
+            <viagem>
+                <oid>3058457</oid>
+                <horario>1367511300000</horario>
+            </viagem>
+            <horarioEstimado>1367513697782</horarioEstimado>
+            <horarioPacote>1367511300000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>16</oid>
+                <identificador>122</identificador>
+                <descricao>Aeroporto / Rodoviária / Av. Vitória</descricao>
+            </linha>
+            <viagem>
+                <oid>3058472</oid>
+                <horario>1367512500000</horario>
+            </viagem>
+            <horarioEstimado>1367514897782</horarioEstimado>
+            <horarioPacote>1367512500000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>16</oid>
+                <identificador>122</identificador>
+                <descricao>Aeroporto / Rodoviária / Av. Vitória</descricao>
+            </linha>
+            <viagem>
+                <oid>3058458</oid>
+                <horario>1367514000000</horario>
+            </viagem>
+            <horarioEstimado>1367516441210</horarioEstimado>
+            <horarioPacote>1367514000000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>16</oid>
+                <identificador>122</identificador>
+                <descricao>Aeroporto / Rodoviária / Av. Vitória</descricao>
+            </linha>
+            <viagem>
+                <oid>3058479</oid>
+                <horario>1367515500000</horario>
+            </viagem>
+            <horarioEstimado>1367517941210</horarioEstimado>
+            <horarioPacote>1367515500000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367511243002</horarioAtual>
+    <tempo>492</tempo>
+</previsao>
+

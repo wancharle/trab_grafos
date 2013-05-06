@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="329" identifier="1000">
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>40</oid>
+                <identificador>125</identificador>
+                <descricao>Alto Tabuazeiro / Fonte Grande</descricao>
+            </linha>
+            <viagem>
+                <oid>3051951</oid>
+                <horario>1367175000000</horario>
+            </viagem>
+            <horarioEstimado>1367177172569</horarioEstimado>
+            <horarioPacote>1367175000000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>40</oid>
+                <identificador>125</identificador>
+                <descricao>Alto Tabuazeiro / Fonte Grande</descricao>
+            </linha>
+            <viagem>
+                <oid>3051952</oid>
+                <horario>1367177400000</horario>
+            </viagem>
+            <horarioEstimado>1367179413005</horarioEstimado>
+            <horarioPacote>1367177400000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367174812500</horarioAtual>
+    <tempo>211</tempo>
+</previsao>
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="108" identifier="2026">
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>52</oid>
+                <identificador>302</identificador>
+                <descricao>Santo Antônio / Jardim da Penha</descricao>
+            </linha>
+            <viagem>
+                <oid>3051705</oid>
+                <horario>1367175420000</horario>
+            </viagem>
+            <horarioEstimado>1367175613577</horarioEstimado>
+            <horarioPacote>1367175420000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>52</oid>
+                <identificador>302</identificador>
+                <descricao>Santo Antônio / Jardim da Penha</descricao>
+            </linha>
+            <viagem>
+                <oid>3051697</oid>
+                <horario>1367177700000</horario>
+            </viagem>
+            <horarioEstimado>1367177889554</horarioEstimado>
+            <horarioPacote>1367177700000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>52</oid>
+                <identificador>302</identificador>
+                <descricao>Santo Antônio / Jardim da Penha</descricao>
+            </linha>
+            <viagem>
+                <oid>3051689</oid>
+                <horario>1367180460000</horario>
+            </viagem>
+            <horarioEstimado>1367180665012</horarioEstimado>
+            <horarioPacote>1367180460000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367174352088</horarioAtual>
+    <tempo>116</tempo>
+</previsao>
+

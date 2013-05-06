@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="105" identifier="2101">
+        
+        <estimativa>
+            <veiculo>
+                <oid>544</oid>
+                <rotulo>G7090</rotulo>
+            </veiculo>
+            <linha>
+                <oid>52</oid>
+                <identificador>302</identificador>
+                <descricao>Santo Antônio / Jardim da Penha</descricao>
+            </linha>
+            <viagem>
+                <oid>3051696</oid>
+                <horario>1367172060000</horario>
+            </viagem>
+            <horarioEstimado>1367176028740</horarioEstimado>
+            <horarioPacote>1367174358209</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>546</oid>
+                <rotulo>G7120</rotulo>
+            </veiculo>
+            <linha>
+                <oid>52</oid>
+                <identificador>302</identificador>
+                <descricao>Santo Antônio / Jardim da Penha</descricao>
+            </linha>
+            <viagem>
+                <oid>3051688</oid>
+                <horario>1367173740000</horario>
+            </viagem>
+            <horarioEstimado>1367177849234</horarioEstimado>
+            <horarioPacote>1367174366909</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>52</oid>
+                <identificador>302</identificador>
+                <descricao>Santo Antônio / Jardim da Penha</descricao>
+            </linha>
+            <viagem>
+                <oid>3051705</oid>
+                <horario>1367175420000</horario>
+            </viagem>
+            <horarioEstimado>1367179461523</horarioEstimado>
+            <horarioPacote>1367175420000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367174392133</horarioAtual>
+    <tempo>72</tempo>
+</previsao>
+

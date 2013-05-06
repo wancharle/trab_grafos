@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="314" identifier="5056">
+        
+        <estimativa>
+            <veiculo>
+                <oid>391</oid>
+                <rotulo>T637</rotulo>
+            </veiculo>
+            <linha>
+                <oid>51</oid>
+                <identificador>332</identificador>
+                <descricao>Curva da Jurema / Resistência</descricao>
+            </linha>
+            <viagem>
+                <oid>3051779</oid>
+                <horario>1367160000000</horario>
+            </viagem>
+            <horarioEstimado>1367163322445</horarioEstimado>
+            <horarioPacote>1367161970674</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>391</oid>
+                <rotulo>T637</rotulo>
+            </veiculo>
+            <linha>
+                <oid>51</oid>
+                <identificador>332</identificador>
+                <descricao>Curva da Jurema / Resistência</descricao>
+            </linha>
+            <viagem>
+                <oid>3051739</oid>
+                <horario>1367169000000</horario>
+            </viagem>
+            <horarioEstimado>1367172007083</horarioEstimado>
+            <horarioPacote>1367171948618</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>51</oid>
+                <identificador>332</identificador>
+                <descricao>Curva da Jurema / Resistência</descricao>
+            </linha>
+            <viagem>
+                <oid>3051756</oid>
+                <horario>1367171700000</horario>
+            </viagem>
+            <horarioEstimado>1367175358762</horarioEstimado>
+            <horarioPacote>1367171700000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>51</oid>
+                <identificador>332</identificador>
+                <descricao>Curva da Jurema / Resistência</descricao>
+            </linha>
+            <viagem>
+                <oid>3051745</oid>
+                <horario>1367174100000</horario>
+            </viagem>
+            <horarioEstimado>1367177551787</horarioEstimado>
+            <horarioPacote>1367174100000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367171983457</horarioAtual>
+    <tempo>148</tempo>
+</previsao>
+

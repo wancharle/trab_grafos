@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="753" identifier="5033">
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>3</oid>
+                <identificador>031</identificador>
+                <descricao>São Benedito / Ilha do Principe /Via Reta da Penha</descricao>
+            </linha>
+            <viagem>
+                <oid>3051576</oid>
+                <horario>1367169600000</horario>
+            </viagem>
+            <horarioEstimado>1367170123352</horarioEstimado>
+            <horarioPacote>1367169600000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>3</oid>
+                <identificador>031</identificador>
+                <descricao>São Benedito / Ilha do Principe /Via Reta da Penha</descricao>
+            </linha>
+            <viagem>
+                <oid>3051577</oid>
+                <horario>1367172600000</horario>
+            </viagem>
+            <horarioEstimado>1367173474217</horarioEstimado>
+            <horarioPacote>1367172600000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>3</oid>
+                <identificador>031</identificador>
+                <descricao>São Benedito / Ilha do Principe /Via Reta da Penha</descricao>
+            </linha>
+            <viagem>
+                <oid>3051578</oid>
+                <horario>1367175600000</horario>
+            </viagem>
+            <horarioEstimado>1367176307521</horarioEstimado>
+            <horarioPacote>1367175600000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>3</oid>
+                <identificador>031</identificador>
+                <descricao>São Benedito / Ilha do Principe /Via Reta da Penha</descricao>
+            </linha>
+            <viagem>
+                <oid>3051579</oid>
+                <horario>1367178600000</horario>
+            </viagem>
+            <horarioEstimado>1367179307521</horarioEstimado>
+            <horarioPacote>1367178600000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367172777400</horarioAtual>
+    <tempo>97</tempo>
+</previsao>
+

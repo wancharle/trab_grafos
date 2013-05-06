@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="155" identifier="2067">
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>9</oid>
+                <identificador>104</identificador>
+                <descricao>Santos Dumont / Bela Vista</descricao>
+            </linha>
+            <viagem>
+                <oid>3052175</oid>
+                <horario>1367162700000</horario>
+            </viagem>
+            <horarioEstimado>1367164460836</horarioEstimado>
+            <horarioPacote>1367162700000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>252</oid>
+                <rotulo>T357</rotulo>
+            </veiculo>
+            <linha>
+                <oid>9</oid>
+                <identificador>104</identificador>
+                <descricao>Santos Dumont / Bela Vista</descricao>
+            </linha>
+            <viagem>
+                <oid>3052156</oid>
+                <horario>1367174400000</horario>
+            </viagem>
+            <horarioEstimado>1367176525888</horarioEstimado>
+            <horarioPacote>1367175330986</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367175401250</horarioAtual>
+    <tempo>36</tempo>
+</previsao>
+

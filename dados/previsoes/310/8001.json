@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="494" identifier="8001">
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>49</oid>
+                <identificador>310</identificador>
+                <descricao>Jardim Camburi / Santo André</descricao>
+            </linha>
+            <viagem>
+                <oid>3052287</oid>
+                <horario>1367173500000</horario>
+            </viagem>
+            <horarioEstimado>1367173529357</horarioEstimado>
+            <horarioPacote>1367173500000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>49</oid>
+                <identificador>310</identificador>
+                <descricao>Jardim Camburi / Santo André</descricao>
+            </linha>
+            <viagem>
+                <oid>3052288</oid>
+                <horario>1367177100000</horario>
+            </viagem>
+            <horarioEstimado>1367177121364</horarioEstimado>
+            <horarioPacote>1367177100000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>229</oid>
+                <rotulo>T3867</rotulo>
+            </veiculo>
+            <linha>
+                <oid>49</oid>
+                <identificador>310</identificador>
+                <descricao>Jardim Camburi / Santo André</descricao>
+            </linha>
+            <viagem>
+                <oid>3052285</oid>
+                <horario>1367166900000</horario>
+            </viagem>
+            <horarioEstimado>1367171851299</horarioEstimado>
+            <horarioPacote>1367171625218</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>230</oid>
+                <rotulo>T3877</rotulo>
+            </veiculo>
+            <linha>
+                <oid>49</oid>
+                <identificador>310</identificador>
+                <descricao>Jardim Camburi / Santo André</descricao>
+            </linha>
+            <viagem>
+                <oid>3052286</oid>
+                <horario>1367170500000</horario>
+            </viagem>
+            <horarioEstimado>1367176343699</horarioEstimado>
+            <horarioPacote>1367171647560</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367171679022</horarioAtual>
+    <tempo>183</tempo>
+</previsao>
+

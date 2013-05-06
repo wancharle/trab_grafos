@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="816" identifier="1024">
+        
+        <estimativa>
+            <veiculo>
+                <oid>406</oid>
+                <rotulo>T4007</rotulo>
+            </veiculo>
+            <linha>
+                <oid>36</oid>
+                <identificador>124</identificador>
+                <descricao>Jardim da Penha / Estrelinha</descricao>
+            </linha>
+            <viagem>
+                <oid>3051669</oid>
+                <horario>1367173500000</horario>
+            </viagem>
+            <horarioEstimado>1367175299579</horarioEstimado>
+            <horarioPacote>1367174046787</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>36</oid>
+                <identificador>124</identificador>
+                <descricao>Jardim da Penha / Estrelinha</descricao>
+            </linha>
+            <viagem>
+                <oid>3051670</oid>
+                <horario>1367175300000</horario>
+            </viagem>
+            <horarioEstimado>1367177077642</horarioEstimado>
+            <horarioPacote>1367175300000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>36</oid>
+                <identificador>124</identificador>
+                <descricao>Jardim da Penha / Estrelinha</descricao>
+            </linha>
+            <viagem>
+                <oid>3051671</oid>
+                <horario>1367177100000</horario>
+            </viagem>
+            <horarioEstimado>1367178939349</horarioEstimado>
+            <horarioPacote>1367177100000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>36</oid>
+                <identificador>124</identificador>
+                <descricao>Jardim da Penha / Estrelinha</descricao>
+            </linha>
+            <viagem>
+                <oid>3051672</oid>
+                <horario>1367178900000</horario>
+            </viagem>
+            <horarioEstimado>1367180739349</horarioEstimado>
+            <horarioPacote>1367178900000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367174104037</horarioAtual>
+    <tempo>137</tempo>
+</previsao>
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="917" identifier="7044">
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>2</oid>
+                <identificador>010</identificador>
+                <descricao>Nova Palestina / Fradinhos</descricao>
+            </linha>
+            <viagem>
+                <oid>3051811</oid>
+                <horario>1367173500000</horario>
+            </viagem>
+            <horarioEstimado>1367173529840</horarioEstimado>
+            <horarioPacote>1367173500000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>2</oid>
+                <identificador>010</identificador>
+                <descricao>Nova Palestina / Fradinhos</descricao>
+            </linha>
+            <viagem>
+                <oid>3051812</oid>
+                <horario>1367176500000</horario>
+            </viagem>
+            <horarioEstimado>1367176575765</horarioEstimado>
+            <horarioPacote>1367176500000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>2</oid>
+                <identificador>010</identificador>
+                <descricao>Nova Palestina / Fradinhos</descricao>
+            </linha>
+            <viagem>
+                <oid>3051798</oid>
+                <horario>1367178900000</horario>
+            </viagem>
+            <horarioEstimado>1367178975765</horarioEstimado>
+            <horarioPacote>1367178900000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367172066761</horarioAtual>
+    <tempo>11</tempo>
+</previsao>
+

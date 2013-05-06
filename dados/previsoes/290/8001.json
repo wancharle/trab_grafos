@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="494" identifier="8001">
+        
+        <estimativa>
+            <veiculo>
+                <oid>598</oid>
+                <rotulo>U9514</rotulo>
+            </veiculo>
+            <linha>
+                <oid>55</oid>
+                <identificador>290</identificador>
+                <descricao>Sambão do Povo / Atlântica Ville / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052034</oid>
+                <horario>1367172000000</horario>
+            </viagem>
+            <horarioEstimado>1367176345525</horarioEstimado>
+            <horarioPacote>1367175807369</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>55</oid>
+                <identificador>290</identificador>
+                <descricao>Sambão do Povo / Atlântica Ville / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052035</oid>
+                <horario>1367176200000</horario>
+            </viagem>
+            <horarioEstimado>1367180027968</horarioEstimado>
+            <horarioPacote>1367176200000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>55</oid>
+                <identificador>290</identificador>
+                <descricao>Sambão do Povo / Atlântica Ville / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052041</oid>
+                <horario>1367178000000</horario>
+            </viagem>
+            <horarioEstimado>1367181827968</horarioEstimado>
+            <horarioPacote>1367178000000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>55</oid>
+                <identificador>290</identificador>
+                <descricao>Sambão do Povo / Atlântica Ville / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052027</oid>
+                <horario>1367179500000</horario>
+            </viagem>
+            <horarioEstimado>1367183012047</horarioEstimado>
+            <horarioPacote>1367179500000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>55</oid>
+                <identificador>290</identificador>
+                <descricao>Sambão do Povo / Atlântica Ville / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052035</oid>
+                <horario>1367176200000</horario>
+            </viagem>
+            <horarioEstimado>1367176268922</horarioEstimado>
+            <horarioPacote>1367176200000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>55</oid>
+                <identificador>290</identificador>
+                <descricao>Sambão do Povo / Atlântica Ville / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052041</oid>
+                <horario>1367178000000</horario>
+            </viagem>
+            <horarioEstimado>1367178068922</horarioEstimado>
+            <horarioPacote>1367178000000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>55</oid>
+                <identificador>290</identificador>
+                <descricao>Sambão do Povo / Atlântica Ville / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052027</oid>
+                <horario>1367179500000</horario>
+            </viagem>
+            <horarioEstimado>1367179598970</horarioEstimado>
+            <horarioPacote>1367179500000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>55</oid>
+                <identificador>290</identificador>
+                <descricao>Sambão do Povo / Atlântica Ville / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052036</oid>
+                <horario>1367181300000</horario>
+            </viagem>
+            <horarioEstimado>1367181398970</horarioEstimado>
+            <horarioPacote>1367181300000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>55</oid>
+                <identificador>290</identificador>
+                <descricao>Sambão do Povo / Atlântica Ville / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052042</oid>
+                <horario>1367182800000</horario>
+            </viagem>
+            <horarioEstimado>1367182908811</horarioEstimado>
+            <horarioPacote>1367182800000</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>582</oid>
+                <rotulo>U9506</rotulo>
+            </veiculo>
+            <linha>
+                <oid>55</oid>
+                <identificador>290</identificador>
+                <descricao>Sambão do Povo / Atlântica Ville / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052021</oid>
+                <horario>1367160300000</horario>
+            </viagem>
+            <horarioEstimado>1367165206598</horarioEstimado>
+            <horarioPacote>1367165206598</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>582</oid>
+                <rotulo>U9506</rotulo>
+            </veiculo>
+            <linha>
+                <oid>55</oid>
+                <identificador>290</identificador>
+                <descricao>Sambão do Povo / Atlântica Ville / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052025</oid>
+                <horario>1367169000000</horario>
+            </viagem>
+            <horarioEstimado>1367172261378</horarioEstimado>
+            <horarioPacote>1367172261378</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>579</oid>
+                <rotulo>U9503</rotulo>
+            </veiculo>
+            <linha>
+                <oid>55</oid>
+                <identificador>290</identificador>
+                <descricao>Sambão do Povo / Atlântica Ville / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052040</oid>
+                <horario>1367173200000</horario>
+            </viagem>
+            <horarioEstimado>1367175809735</horarioEstimado>
+            <horarioPacote>1367175809735</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>584</oid>
+                <rotulo>U9508</rotulo>
+            </veiculo>
+            <linha>
+                <oid>55</oid>
+                <identificador>290</identificador>
+                <descricao>Sambão do Povo / Atlântica Ville / Via Beira Mar</descricao>
+            </linha>
+            <viagem>
+                <oid>3052026</oid>
+                <horario>1367175000000</horario>
+            </viagem>
+            <horarioEstimado>1367175764958</horarioEstimado>
+            <horarioPacote>1367175764958</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367175834539</horarioAtual>
+    <tempo>197</tempo>
+</previsao>
+

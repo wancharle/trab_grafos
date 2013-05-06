@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="previsao.xsl"?>
+
+
+
+
+<previsao>
+    
+    <ponto id="847" identifier="2015">
+        
+        <estimativa>
+            <veiculo>
+                <oid>260</oid>
+                <rotulo>T437</rotulo>
+            </veiculo>
+            <linha>
+                <oid>2</oid>
+                <identificador>010</identificador>
+                <descricao>Nova Palestina / Fradinhos</descricao>
+            </linha>
+            <viagem>
+                <oid>3051810</oid>
+                <horario>1367171100000</horario>
+            </viagem>
+            <horarioEstimado>1367174783244</horarioEstimado>
+            <horarioPacote>1367172044056</horarioPacote>
+        </estimativa>
+        
+        <estimativa>
+            <veiculo>
+                <oid>0</oid>
+                <rotulo>-</rotulo>
+            </veiculo>
+            <linha>
+                <oid>2</oid>
+                <identificador>010</identificador>
+                <descricao>Nova Palestina / Fradinhos</descricao>
+            </linha>
+            <viagem>
+                <oid>3051811</oid>
+                <horario>1367173500000</horario>
+            </viagem>
+            <horarioEstimado>1367176406286</horarioEstimado>
+            <horarioPacote>1367173500000</horarioPacote>
+        </estimativa>
+        
+    </ponto>
+    
+    <horarioAtual>1367172058389</horarioAtual>
+    <tempo>141</tempo>
+</previsao>
+
