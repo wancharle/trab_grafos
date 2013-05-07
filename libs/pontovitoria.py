@@ -14,6 +14,7 @@ from unicodedata import normalize
 from sets import Set
 import pdb
 
+from django.utils.timesince import timeuntil
 class Ponto:
     def __init__(self,numero, dados):
         self.numero = numero
@@ -41,8 +42,10 @@ class Previsao:
 
 class PontoVitoria:
     pontos = []
+
     def __init__(self,url_base="http://rast.vitoria.es.gov.br/pontovitoria/"):
        self.url_base = url_base
+       self.pasta_dados = os.path.join(os.path.dirname(__file__),'../dados/')
        self.referer = "http://rast.vitoria.es.gov.br/pontovitoria/"
        self.key = None
     def get_key(self):
@@ -56,6 +59,7 @@ class PontoVitoria:
         texto = pg.read()
         self.key= texto.split('key')[1].split('|')[2]
         return self.key
+        return "311378"
 
     def getPontos(self):
        """ 
@@ -71,15 +75,15 @@ class PontoVitoria:
        if PontoVitoria.pontos:
            return PontoVitoria.pontos
 
-       if not os.path.exists("dados/pontos/lista_de_pontos.json") :
+       if not os.path.exists(self.pasta_dados+"/pontos/lista_de_pontos.json") :
             req = urllib2.Request("%sutilidades/retornaPontos" % self.url_base)        
             req.add_header('Referer',self.referer)
             pg = urllib2.urlopen(req)
             texto = pg.read()
-            with open('dados/pontos/lista_de_pontos.json','w') as fp:
+            with open(self.pasta_dados+'/pontos/lista_de_pontos.json','w') as fp:
                 fp.write(texto) 
         
-       with open("dados/pontos/lista_de_pontos.json",'r') as fp:               
+       with open(self.pasta_dados+"/pontos/lista_de_pontos.json",'r') as fp:               
             pontos = json.loads(fp.read(),'utf-8')
       
        PontoVitoria.pontos = []
@@ -104,7 +108,7 @@ class PontoVitoria:
         [u'121', u'122', u'123', u'160', u'161', u'163', u'214', u'241']
         
         """
-        linhas_file= "dados/pontos/%s.json" % ponto
+        linhas_file= self.pasta_dados+"/pontos/%s.json" % ponto
         if not os.path.exists(linhas_file) :
             parametros = {'ponto_oid':ponto }
             req = urllib2.Request("%sutilidades/listaLinhaPassamNoPonto" % self.url_base,urllib.urlencode(parametros))        
@@ -151,8 +155,12 @@ class PontoVitoria:
         return pg.read()
 
     def getPrevisao(self,linha="163",ponto="6039",cache = True):
+        """
+        >>> pv = PontoVitoria()
+        >>> pv.getPrevisao(cache=False) 
+        """
         if cache: 
-            prev_file= "dados/previsoes/%s/%s.json" % (linha,ponto)
+            prev_file= self.pasta_dados+"/previsoes/%s/%s.json" % (linha,ponto)
             if not os.path.exists(prev_file):
                 if not os.path.exists(os.path.dirname(prev_file)):
                     os.mkdir(os.path.dirname(prev_file))
@@ -168,7 +176,27 @@ class PontoVitoria:
         r = xml.fromstring(texto)
         previsao = Previsao(r)
         return previsao
-    
+
+    def getHorarios(self, ponto):
+        estimativas = []
+        for l in self.linhasQuePassamNoPonto(ponto):
+                prev = self.getPrevisao(l,ponto,False)
+                estimativas +=prev.estimativas
+   
+        horarios ={}
+        for e in estimativas:
+           ee = formata_horario(e)
+           o={}
+           if ee == {}:
+               continue
+           if  not horarios.has_key(ee['linha']):
+                horarios[ee['linha']] = []
+           o['data_estimada']="%s (%s)" % (ee['data_estimada'].strftime("%H:%M"),timeuntil(ee['data_estimada']))
+           o['data_horario']=ee['data_horario'].strftime("%H:%M")
+           o['data_pacote']=ee['data_pacote'].strftime("%H:%M")
+           horarios[ee['linha']].append(o)
+        return horarios 
+ 
     def getPontosDaLinha(self,linha):
         """
         Retorna os pontos que pertecem a uma linha.
@@ -200,6 +228,31 @@ if __name__== "__main__":
     pv = PontoVitoria()
     p = pv.getPontosDaLinha(163)
     len(p)
+
+
+
+import pytz
+
+tz_brasil = pytz.timezone("America/Sao_Paulo")
+
+
+def formata_horario(estimativa):
+    dados = {}
+    try:
+        if estimativa.has_key("linha"):
+             dados['linha']=estimativa.linha.identificador
+             dados['veiculo']=estimativa.veiculo.rotulo
+             data = estimativa.horarioPacote
+             dados['data_pacote']=datetime.datetime.fromtimestamp(int(data[:-3]),tz_brasil)
+             data = estimativa.horarioEstimado
+             dados['data_estimada']=datetime.datetime.fromtimestamp(int(data[:-3]),tz_brasil)
+
+             data = estimativa.viagem.horario
+             dados['data_horario']=datetime.datetime.fromtimestamp(int(data[:-3]),tz_brasil)
+             dados['viagem']=estimativa.viagem.oid
+    except:
+        pass
+    return dados 
 
 
 
